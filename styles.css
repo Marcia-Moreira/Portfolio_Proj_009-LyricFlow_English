@@ -90,28 +90,31 @@ body {
     position: absolute;
     border-radius: 4px;
 }
+/* Barra de Progresso do Audio */
 .audio-progress {
-    transition: width 0.3s ease-in-out;
+    transition: width 0.5s ease-in-out;
 }
 
 /** Letras: */
 /*! Poderia ser hidden e só aparecer quando play for ativado! */
 .container-letter {
     display: none;
+    /* visibility: hidden; */
     overflow: hidden;
-    height: 350px;
+    /* height: 100vh; */
+    height: 400px;
     width: 700px;
     border-radius: 5px;
     padding: 20px;
     position: relative;
-    transition: transform 0.3s ease-in-out;
+    /* transition: transform 0.5s ease-in-out; */
     border: 1px solid whitesmoke;
 }
 .container-letter::before,
 .container-letter::after {
     content: "";
     display: block;
-    height: 20px;
+    height: 70px;
 }
 .faixa {
     display: flex;
@@ -122,10 +125,22 @@ body {
     border-radius: 5px;
     margin: 15px;
     padding: 15px;
-    height: 80px; /* Altura fixa para cada faixa */
+    /* Altura fixa para cada faixa */
+    height: 80px; 
     min-height: 80px;
-    transition: transform 0.5s ease-in-out;
-    display: none;
+
+    opacity: 0; /* Inicialmente invisível */
+    transform: translateY(100%); /* Começa fora da tela */
+
+    /* transition: transform 0.5s ease-in-out; */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    /*! display: none; */
+    visibility: hidden;
+}
+.faixa.active {
+    opacity: 1; /* Torna visível */
+    transform: translateY(0); /* Move para a posição correta */
+    visibility: visible; /* Torna visível */
 }
 .faixa:hover {
     background-color: rgb(53, 52, 52);
