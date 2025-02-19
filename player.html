@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Player Personalizado</title>
+</head>
+<body>
+    <!-- Botão de Voltar para Lista de Músicas-->
+    <button id="back-button" class="back-button">Voltar</button>
+    <!-- <section class="section-player" data-song-id="002"> Deverá ser criado pelo JS!-->
+    <section class="section-player">
+<!-- INÍCIO BLOCO DE PLAYER MÚSICA -->
+        <div class="container-player">
+
+            <div class="image-container">
+<!-- Nome da Música e Artista (preenchido pelo JS) -->
+                <p id="music-title"></p>
+                <p id="music-artist"></p>
+            </div>
+<!-- Dados do audio da música -->
+            <div class="audio-container">
+                <audio class="myAudio" id="audio-player">
+                    <source id="audio-source" type="audio/mpeg">
+                </audio>
+<!-- Botões de Serviço do Player da Música -->
+                <div class="btn-players">
+                    <button class="playBtn">
+                        <i class="bi bi-play-fill"></i> Play
+                    </button>
+                    <button class="pauseBtn">
+                        <i class="bi bi-pause-fill"></i> Pause
+                    </button>
+                </div>
+            
+                <div class="audio-bar">
+                    <div class="audio-progress audioProgress"></div>
+                </div>
+            </div>
+        </div>
+<!-- Importação da Letra da Música (preenchida pelo JS) -->
+        <div class="fade-top"></div>
+            <div class="container-letter" id="lyrics-container"></div>
+        <div class="fade-bottom"></div>
+        <!--? Como Ficará preenchido pelo JSON no HTML: -->
+        <!-- <div class="faixa active" data-time="3">
+            <div class="line-ingles">
+                <p>It's a little bit funny this feeling inside</p>
+            </div>
+            <div class="line-portugues">
+                <p>É um pouco engraçado esse sentimento aqui dentro</p>
+            </div>
+        </div> -->
+
+<!-- FIM BLOCO DE PLAYER MÚSICA -->
+    </section>
+    <footer class="footer">
+        <p>@M_M-Dev_Web - 2025</p>
+    </footer>
+    <script src="./js/playerControls.js"></script>
+    <script src="./js/loadSelectedMusic.js"></script>
+    <script src="./js/lyricsScroll.js"></script>
+    <script src="./js/espacoLetras.js"></script>
+    <script src="./js/syncLyrics.js"></script>
+    <script src="./js/backButton.js"></script>
+    <!-- Para Importação do JSON -->
+    <!-- <script src="./generateLyricsJson.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,393 @@
+/* ********************************************** */
+/* *RESET da PÁGINA */
+/* ********************************************** */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ********************************************** */
+/* *PALETA DE CORES: */
+/* ********************************************** */
+:root {
+    --color-BG-principal: rgb(0, 0, 0);
+    --color-BG-secundario: rgb(137, 43, 226);
+    --color-BG-terciario: rgb(245, 245, 245);
+
+    --color-BG-hover-principal: rgb(53, 52, 52);
+    --color-BG-hover-secundario: rgba(137, 43, 226, 0.545);
+    --color-BG-hover-transparente: rgba(53, 52, 52, 0.503);
+
+    --color-LETTER-principal: rgb(137, 43, 226);
+    --color-LETTER-secundario: rgb(255, 255, 255);
+
+    --color-BORDER-principal: rgb(245, 245, 245);
+    --color-BORDER-secundario:rgb(0, 0, 0);
+}
+/* ********************************************** */
+/** LINKS DE FONTES LEGÍVEIS: */
+/* ********************************************** */
+/* 
+font-family: 'Montserrat', sans-serif;
+https://fonts.google.com/specimen/Montserrat
+font-family: 'Poppins', sans-serif;
+https://fonts.google.com/specimen/Poppins
+font-family: 'Roboto', sans-serif;
+https://fonts.google.com/specimen/Roboto
+font-family: 'Open Sans', sans-serif;
+https://fonts.google.com/specimen/Open+Sans
+font-family: 'Lato', sans-serif;
+https://fonts.google.com/specimen/Lato
+font-family: 'Raleway', sans-serif;
+https://fonts.google.com/specimen/Raleway
+font-family: 'Nunito', sans-serif;
+https://fonts.google.com/specimen/Nunito
+*/
+/* ********************************************** */
+/* *GERAL: */
+/* ********************************************** */
+body {
+    background-color: var(--color-BG-principal);
+    color: var(--color-LETTER-principal);
+
+    /* *OPÇÕES DE FONTES BAIXADAS: */
+    /* *Opção 01: */
+    font-family: 'Montserrat', sans-serif;
+    /* https://fonts.google.com/specimen/Montserrat */
+    /* *Opção 02: */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* https://fonts.google.com/specimen/Open+Sans */
+    /* *Opção 03: */
+    /* font-family: 'Lato', sans-serif; */
+    /* https://fonts.google.com/specimen/Lato */
+}
+.fade-top,
+.fade-bottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 20px; /* Altura do efeito esfumaçado */
+    /* USAR no Piano Red??? */
+    pointer-events: none; /* Impede que interfira no clique das faixas */
+    z-index: 10;
+}
+.fade-top {
+    top: 0;
+    background: linear-gradient(to bottom, rgba(186, 85, 211, 0.5), transparent);
+}
+.fade-bottom {
+    bottom: 0;
+    background: linear-gradient(to top, rgba(186, 85, 211, 0.5), transparent);
+}
+/* ********************************************** */
+/* *PÁGINA LISTA DE MÚSICAS: */
+/* ********************************************** */
+section.music-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    gap: 20px;
+}
+section.music-list h1 {
+    font-size: 26px;
+    color: var(--color-LETTER-secundario);
+    text-align: center;
+}
+section.music-list ul {
+    cursor: pointer;
+    list-style: none;
+    font-size: 22px;
+}
+section.music-list ul#music-list li {
+    color: var(--color-LETTER-principal);
+    padding: 15px;
+}
+section.music-list ul#music-list li:hover {
+    color: var(--color-BG-hover-secundario);
+}
+/* ********************************************** */
+/* *BOTÃO VOLTAR A LISTAGEM: */
+/* ********************************************** */
+.back-button {
+    position: fixed; /* Fixa o botão na tela */
+    top: 20px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    padding: 6px 10px;
+    background-color: var(--color-BG-secundario);
+    color: var(--color-LETTER-secundario);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+.back-button:hover {
+    background-color: var(--color-BG-hover-secundario);
+}
+/* ********************************************** */
+/* *PÁGINA PLAYER: */
+/* ********************************************** */
+.section-player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.container-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-BG-secundario);
+    width: 100%;
+    max-width: 220px;
+    min-width: 130px;
+    height: auto;
+    height: 120px;
+    border-radius: 5px;
+    transition: background-color 0.4s ease;
+    padding: 3px;
+}
+.container-player:hover {
+    background-color: var(--color-BG-hover-secundario);
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.image-container p {
+    font-size: 18px;
+    color: var(--color-LETTER-secundario);
+}
+.audio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-players {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+.btn-players button {
+    min-width: 80px;
+    min-height: 40px;
+    background-color: var(--color-BG-terciario);
+    border: 1px solid var(--color-BORDER-secundario);
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    transition: background-color 0.4s ease;
+}
+.btn-players button:hover {
+    background-color: var(--color-BG-principal);
+    color: var(--color-LETTER-secundario);
+    transform: scale(1.05);
+}
+.btn-players button:active {
+    transform: scale(0.95);
+}
+/* Classes dos icons play e pause: */
+.playBtn, .pauseBtn {
+    background-color: transparent;
+    border: none;
+    color: var(--color-BG-secundario);
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.playBtn .bi-play-fill, .pauseBtn .bi-pause-fill {
+    font-size: 20px; /* Tamanho do ícone */
+}
+.audio-bar {
+    width: 100%;
+    height: 9px;
+    border-radius: 3px;
+    background: var(--color-BG-terciario);
+    border: 0.5px solid var(--color-BORDER-secundario);
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* Barra de Progresso do Audio */
+.audio-progress {
+    height: 8px;
+    width: 0%;
+    background: var(--color-BG-hover-secundario);
+    position: absolute;
+    border-radius: 2px;
+    transition: width 0.5s ease-in-out;
+}
+.audio-progress:hover {
+    background: var(--color-BG-hover-secundario);
+}
+/* ********************************************** */
+/* *PÁGINA LETRAS DE MÚSICA: */
+/* ********************************************** */
+.container-letter {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    width: 600px;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 20px;
+    transition: background-color 0.4s ease;
+    /* Gradiente esfumaçado nas bordas superior e inferior */
+    background: 
+        linear-gradient(to bottom, rgba(186, 85, 211, 0.5), transparent) top,
+        linear-gradient(to top, rgba(186, 85, 211, 0.5), transparent) bottom;
+    background-size: 100% 20px;
+    background-repeat: no-repeat;
+}
+.container-letter::before,
+.container-letter::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: transparent;
+}
+.faixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px;
+    /* Altura fixa para cada faixa: */
+    height: 80px; 
+    min-height: 80px;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out, background-color 0.4s ease;
+    transform: translateY(5px);
+
+}
+.faixa.active {
+    opacity: 1;
+    transform: translateY(0) scale(1.1);
+    visibility: visible;
+    background-color: rgba(53, 52, 52, 0.418);
+    box-shadow: 0 0 10px 5px rgba(53, 52, 52, 0.418); /* Efeito esfumaçado */
+}
+.faixa:hover {
+    background-color: rgba(53, 52, 52, 0.586);
+}
+.container-letter .faixa .line-ingles p {
+    color: var(--color-LETTER-principal);
+    font-size: 22px;
+    letter-spacing: 1.2px;
+}
+.container-letter .faixa .line-portugues p {
+    color: var(--color-LETTER-secundario);
+    font-size: 19px;
+    letter-spacing: .7px;
+}
+/* ********************************************** */
+/* *RESPONSIVIDADE TELAS MENORES: */
+/* ********************************************** */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    /* background-color: var(--color-BG-secundario); */
+    color: var(--color-LETTER-secundario);
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+/* ********************************************** */
+/* *RESPONSIVIDADE TELAS MENORES: */
+/* ********************************************** */
+
+/* ********************************************** */
+/* *RESPONSIVO PARA TABLETS */
+/* ********************************************** */
+@media (max-width: 1024px) {
+    section.music-list h1 {
+        font-size: 22px;
+    }
+    section.music-list ul {
+        font-size: 18px;
+    }
+    .container-player {
+        max-width: 200px;
+        height: 110px;
+    }
+    .btn-players button {
+        min-width: 70px;
+        min-height: 35px;
+    }
+    .container-letter {
+        width: 90%;
+        height: auto;
+    }
+    .faixa {
+        height: 70px;
+        min-height: 70px;
+    }
+}
+
+/* ********************************************** */
+/* *RESPONSIVO PARA CELULARES */
+/* ********************************************** */
+@media (max-width: 768px) {
+    section.music-list {
+        padding: 3%;
+        gap: 15px;
+    }
+    section.music-list h1 {
+        font-size: 20px;
+    }
+    section.music-list ul {
+        font-size: 16px;
+    }
+    section.music-list ul#music-list li {
+        padding: 10px;
+    }
+    .back-button {
+        top: 10px;
+        right: 10px;
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+    .container-player {
+        max-width: 180px;
+        height: 100px;
+    }
+    .btn-players button {
+        min-width: 60px;
+        min-height: 30px;
+        font-size: 12px;
+    }
+    .container-letter {
+        width: 95%;
+        height: auto;
+    }
+    .faixa {
+        height: 60px;
+        min-height: 60px;
+        padding: 8px;
+    }
+    .fade-top,
+    .fade-bottom {
+        height: 15px;
+    }
+}

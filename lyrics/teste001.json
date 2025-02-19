@@ -1,0 +1,69 @@
+{
+  "title": "Your Song",
+  "artist": "Ellie Goulding",
+  "composer": "Bernie Taupin / Elton John",
+  "audioSrc": "./001.m4a",
+  "lyricsFile": "./lyrics/001.txt",
+  "lyrics": [
+    {
+      "start": 1,
+      "text_pt": "- Sua Canção -",
+      "text_en": "- Your Song -"
+    },
+    {
+      "start": 3,
+      "text_pt": "É um pouco engraçado esse sentimento aqui dentro",
+      "text_en": "It's a little bit funny this feeling inside"
+    },
+    {
+      "start": 14,
+      "text_pt": "Eu não sou uma daquelas que facilmente conseguem esconder",
+      "text_en": "I'm not one of those who can easily hide"
+    },
+    {
+      "start": 26,
+      "text_pt": "Eu não tenho muito dinheiro, mas garoto, se eu tivesse",
+      "text_en": "I don't have much money but boy if I did"
+    },
+    {
+      "start": 38,
+      "text_pt": "Eu compraria uma casa grande onde nós dois poderíamos viver",
+      "text_en": "I'd buy a big house where we both could live"
+    },
+    {
+      "start": 40,
+      "text_pt": "Então me desculpe por esquecer mas eu faço esse tipo de coisa",
+      "text_en": "So excuse me forgetting but these things I do"
+    },
+    {
+      "start": 52,
+      "text_pt": "Você vê, eu esqueci se eles são verdes ou azuis",
+      "text_en": "You see I've forgotten if they're green or they're blue"
+    },
+    {
+      "start": 64,
+      "text_pt": "De qualquer forma, isso é o que eu realmente quero dizer",
+      "text_en": "Anyway the thing is what I really mean"
+    },
+    {
+      "start": 76,
+      "text_pt": "Seus olhos são os mais doces que eu já vi",
+      "text_en": "Yours are the sweetest eyes I've ever seen"
+    },
+    {
+      "start": 88,
+      "text_pt": "E você pode dizer a todos que esta é sua canção",
+      "text_en": "And you can tell everybody this is your song"
+    },
+    {
+      "start": 90,
+      "text_pt": "Pode ser bastante simples, mas agora que está feito",
+      "text_en": "It may be quite simple but now that is done"
+    },
+    {
+      "start": 9999,
+      "text_pt": "Composição: Bernie Taupin / Elton John",
+      "text_en": "Composition: Bernie Taupin / Elton John"
+    }
+  ]
+}
