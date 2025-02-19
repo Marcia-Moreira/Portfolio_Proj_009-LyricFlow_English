@@ -7,127 +7,127 @@
   "scrollSpeed": 0,
   "lyrics": [
     {
-      "start": 1,
+      "start": 0,
       "text_pt": "- Sua Canção -",
       "text_en": "- Your Song -"
     },
     {
-      "start": 3,
+      "start": 5,
       "text_pt": "É um pouco engraçado esse sentimento aqui dentro",
       "text_en": "It's a little bit funny this feeling inside"
     },
     {
-      "start": 14,
+      "start": 12,
       "text_pt": "Eu não sou uma daquelas que facilmente conseguem esconder",
       "text_en": "I'm not one of those who can easily hide"
     },
     {
-      "start": 26,
+      "start": 20,
       "text_pt": "Eu não tenho muito dinheiro, mas garoto, se eu tivesse",
       "text_en": "I don't have much money but boy if I did"
     },
     {
-      "start": 38,
+      "start": 27,
       "text_pt": "Eu compraria uma casa grande onde nós dois poderíamos viver",
       "text_en": "I'd buy a big house where we both could live"
     },
     {
-      "start": 40,
+      "start": 36,
       "text_pt": "Então me desculpe por esquecer mas eu faço esse tipo de coisa",
       "text_en": "So excuse me forgetting but these things I do"
     },
     {
-      "start": 52,
+      "start": 43,
       "text_pt": "Você vê, eu esqueci se eles são verdes ou azuis",
       "text_en": "You see I've forgotten if they're green or they're blue"
     },
     {
-      "start": 64,
+      "start": 50,
       "text_pt": "De qualquer forma, isso é o que eu realmente quero dizer",
       "text_en": "Anyway the thing is what I really mean"
     },
     {
-      "start": 76,
+      "start": 57,
       "text_pt": "Seus olhos são os mais doces que eu já vi",
       "text_en": "Yours are the sweetest eyes I've ever seen"
     },
     {
-      "start": 88,
+      "start": 65,
       "text_pt": "E você pode dizer a todos que esta é sua canção",
       "text_en": "And you can tell everybody this is your song"
     },
     {
-      "start": 90,
+      "start": 73,
       "text_pt": "Pode ser bastante simples, mas agora que está feito",
       "text_en": "It may be quite simple but now that is done"
     },
     {
-      "start": 122,
+      "start": 79,
       "text_pt": "Eu espero que você não se importe",
       "text_en": "I hope you don't mind"
     },
     {
-      "start": 144,
+      "start": 82,
       "text_pt": "Espero que você não se importe que eu coloque em palavras",
       "text_en": "I hope you don't mind that I put down in words"
     },
     {
-      "start": 156,
+      "start": 88,
       "text_pt": "Como a vida é maravilhosa enquanto você está no mundo",
       "text_en": "How wonderful life is now you're in the world"
     },
     {
-      "start": 168,
+      "start": 97,
       "text_pt": "Se eu fosse um escultor, mas novamente, não",
       "text_en": "If I was a sculptor, but then again, no"
     },
     {
-      "start": 175,
+      "start": 104,
       "text_pt": "Ou uma garota que faz poções em um show intinerante",
       "text_en": "Or a girl who makes potions in a travelling show"
     },
     {
-      "start": 182,
+      "start": 111,
       "text_pt": "Eu sei que não é muito mas é o melhor que eu posso fazer",
       "text_en": "I know it's not much but it's the best I can do"
     },
     {
-      "start": 200,
+      "start": 119,
       "text_pt": "Meu presente é minha canção e é só para você",
       "text_en": "My gift is my song and this one's for you"
     },
     {
-      "start": 210,
+      "start": 128,
       "text_pt": "...",
       "text_en": "..."
     },
     {
-      "start": 220,
+      "start": 150,
       "text_pt": "E você pode dizer a todos que esta é sua canção",
       "text_en": "And you can tell everybody this is your song"
     },
     {
-      "start": 230,
+      "start": 157,
       "text_pt": "Pode ser bastante simples, mas agora que está feito",
       "text_en": "It may be quite simple but now that it's done"
     },
     {
-      "start": 240,
+      "start": 164,
       "text_pt": "Eu espero que você não se importe",
       "text_en": "I hope you don't mind"
     },
     {
-      "start": 250,
+      "start": 166,
       "text_pt": "Espero que você não se importe que eu coloque em palavras",
       "text_en": "I hope you don't mind that I put down in words"
     },
     {
-      "start": 260,
+      "start": 175,
       "text_pt": "Como a vida é maravilhosa enquanto você está no mundo",
       "text_en": "How wonderful life is now you're in the world"
     },
     {
-      "start": 270,
+      "start": 186,
       "text_pt": "FIM",
       "text_en": "END"
     },
