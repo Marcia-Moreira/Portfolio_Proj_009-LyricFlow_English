@@ -303,11 +303,12 @@ section.music-list ul#music-list li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: 10px;
     padding: 10px;
     /* background-color: var(--color-BG-secundario); */
     color: var(--color-LETTER-secundario);
-    font-size: 12px;
+    font-size: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
