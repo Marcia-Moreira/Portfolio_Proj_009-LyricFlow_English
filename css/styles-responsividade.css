@@ -1,5 +1,3 @@
-/* REVER */
-
 /* ********************************************** */
 /* *RESPONSIVIDADE TELAS MENORES: */
 /* ********************************************** */
@@ -162,7 +160,7 @@
         background-repeat: no-repeat;
     }
     .faixa {
-        gap: 3px;
+        gap: 2px;
     }
     .container-letter .faixa .line-ingles p {
         font-size: 18px;
@@ -178,3 +176,59 @@
     }
 }
 /* ********************************************** */
+
+/* ********************************************** */
+/*! *RESPONSIVO PARA CELULARES NA HORIZONTAL (850px)*/
+/* ********************************************** */
+@media (max-width: 900px) and (orientation: landscape) {
+    /* Reduz altura do player */
+    .container-player {
+        max-width: 200px;
+        min-width: 120px;
+        height: 90px; /* Menos altura para não ocupar muito espaço */
+    }
+    .image-container p {
+        font-size: 12px;
+    }
+    .btn-players button {
+        min-width: 50px;
+        min-height: 24px;
+    }
+    .playBtn, .pauseBtn {
+        font-size: 9px;
+        padding: 3px 6px;
+    }
+    .playBtn .bi-play-fill, .pauseBtn .bi-pause-fill {
+        font-size: 14px;
+    }
+    .audio-bar {
+        height: 6px;
+    }
+
+    /* Ajuste na área da letra */
+    .container-letter {
+        height: 65vh; /* Ajusta altura para caber mais letras */
+        width: 90vw; /* Usa mais largura */
+        padding: 8px;
+        /* REVER */
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+    .faixa {
+        gap: 2px;
+        padding: 6px;
+    }
+    .container-letter .faixa .line-ingles p {
+        font-size: clamp(14px, 2.5vw, 18px); /* Reduz fonte se necessário */
+    }
+    .container-letter .faixa .line-portugues p {
+        font-size: clamp(12px, 2vw, 16px);
+    }
+
+    /* Reduz tamanho do rodapé */
+    .footer {
+        padding: 4px;
+        font-size: 8px;
+        gap: 0;
+    }
+}
