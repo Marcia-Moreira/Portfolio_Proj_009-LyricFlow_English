@@ -1,0 +1,180 @@
+/* REVER */
+
+/* ********************************************** */
+/* *RESPONSIVIDADE TELAS MENORES: */
+/* ********************************************** */
+
+/* ********************************************** */
+/* *RESPONSIVO PARA TABLETS: 1024px (638px) */
+/* ********************************************** */
+@media (max-width: 638px) {
+    /* ********************************************** */
+    /* *GERAL: */
+    /* ********************************************** */
+    .fade-top,
+    .fade-bottom {
+        /* Altura do efeito esfumaçado */
+        height: 15px;
+    }
+    /* ********************************************** */
+    /* *BOTÃO VOLTAR A LISTAGEM: */
+    /* ********************************************** */
+    .back-button {
+        top: 15px;
+        right: 15px;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 11px;
+    }
+    /* ********************************************** */
+    /* *PÁGINA PLAYER: */
+    /* ********************************************** */
+    .section-player {
+        padding-top: 15px;
+    }
+    .container-player {
+        max-width: 190px;
+        min-width: 110px;
+        height: 110px;
+        border-radius: 4px;
+        padding: 2px;
+    }
+    .image-container {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .image-container p {
+        font-size: 16px;
+    }
+    .btn-players {
+        gap: 8px;
+        border-radius: 4px;
+    }
+    .btn-players button {
+        min-width: 70px;
+        min-height: 30px;
+    }
+    /* Classes dos icons play e pause: */
+    .playBtn, .pauseBtn {
+        font-size: 11px;
+        gap: 6px;
+        padding: 4px 8px;
+        border-radius: 4px;
+    }
+    .playBtn .bi-play-fill, .pauseBtn .bi-pause-fill {
+        font-size: 18px;
+        /* Tamanho do ícone */
+    }
+    .audio-bar {
+        height: 8px;
+        border-radius: 3px;
+        margin-top: 8px;
+    }
+    /* Barra de Progresso do Audio */
+    .audio-progress {
+        height: 7px;
+    }
+    /* ********************************************** */
+    /* *PÁGINA LETRAS DE MÚSICA: */
+    /* ********************************************** */
+    .container-letter {
+        /* height: 350px; */
+        height: 72vh;
+        /* width: 600px; */
+        width: 90vw;
+        border-radius: 4px;
+        padding: 6px;
+        margin: 18px;
+        background: 
+            linear-gradient(to bottom, rgba(186, 85, 211, 0.5), transparent) top,
+            linear-gradient(to top, rgba(186, 85, 211, 0.5), transparent) bottom;
+        background-size: 100% 15px;
+        background-repeat: no-repeat;
+    }
+    .faixa {
+        border-radius: 6px;
+        margin: 12px;
+        padding: 8px;
+        transform: translateY(4px);
+        gap: 5px;
+    }
+    .container-letter .faixa .line-ingles p {
+        font-size: 20px;
+        letter-spacing: 1.1px;
+    }
+    .container-letter .faixa .line-portugues p {
+        font-size: 18px;
+        letter-spacing: .6px;
+    }
+    /* ********************************************** */
+    /* *PÁGINA RODAPÉ: */
+    /* ********************************************** */
+    .footer {
+        gap: 8px;
+        padding: 8px;
+        font-size: 10px;
+        padding-bottom: 14px;
+    }
+}
+/* ********************************************** */
+/* *RESPONSIVO PARA CELULARES (468px) */
+/* ********************************************** */
+@media (max-width: 438px) {
+    /* ********************************************** */
+    /* *GERAL: */
+    /* ********************************************** */
+    .fade-top,
+    .fade-bottom {
+        /* Altura do efeito esfumaçado */
+        height: 12px;
+    }
+    /* ********************************************** */
+    /* *PÁGINA PLAYER: */
+    /* ********************************************** */
+    .container-player {
+        max-width: 180px;
+        min-width: 100px;
+        height: 105px;
+    }
+    .btn-players button {
+        min-width: 60px;
+    }
+    /* Classes dos icons play e pause: */
+    .playBtn, .pauseBtn {
+        font-size: 10px;
+    }
+    .playBtn .bi-play-fill, .pauseBtn .bi-pause-fill {
+        font-size: 16px;
+        /* Tamanho do ícone */
+    }
+    /* ********************************************** */
+    /* *PÁGINA LETRAS DE MÚSICA: */
+    /* ********************************************** */
+    .container-letter {
+        /* height: 350px; */
+        height: 70vh;
+        /* width: 600px; */
+        width: 85vw;
+        background: 
+            linear-gradient(to bottom, rgba(186, 85, 211, 0.5), transparent) top,
+            linear-gradient(to top, rgba(186, 85, 211, 0.5), transparent) bottom;
+        background-size: 100% 10px;
+        background-repeat: no-repeat;
+    }
+    .faixa {
+        gap: 3px;
+    }
+    .container-letter .faixa .line-ingles p {
+        font-size: 18px;
+    }
+    .container-letter .faixa .line-portugues p {
+        font-size: 16px;
+    }
+    /* ********************************************** */
+    /* *PÁGINA RODAPÉ: */
+    /* ********************************************** */
+    .footer {
+        padding-bottom: 12px;
+    }
+}
+/* ********************************************** */

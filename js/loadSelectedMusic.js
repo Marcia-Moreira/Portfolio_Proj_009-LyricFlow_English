@@ -1,4 +1,3 @@
-// ?? ERRO parou de trazer as letras de musicas, verificar conflito com cargaJson ou loadMusicList!!!
 
 // loadSelectedMusic.js
 document.addEventListener("DOMContentLoaded", async () => {

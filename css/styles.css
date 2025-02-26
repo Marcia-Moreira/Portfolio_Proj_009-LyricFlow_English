@@ -239,8 +239,10 @@ section.music-list ul#music-list li:hover {
     display: none;
     position: relative;
     overflow: hidden;
-    height: 350px;
-    width: 600px;
+    /* height: 350px; */
+    height: 65vh;
+    /* width: 600px; */
+    width: 60vw;
     border-radius: 5px;
     padding: 8px;
     margin: 20px;
@@ -269,35 +271,38 @@ section.music-list ul#music-list li:hover {
     border-radius: 8px;
     margin: 15px;
     padding: 10px;
+    gap: 5px;
     /* Altura fixa para cada faixa: */
-    height: 80px; 
+    /* height: 80px; */
     min-height: 80px;
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out, background-color 0.4s ease;
     transform: translateY(5px);
-
 }
 .faixa.active {
     opacity: 1;
-    transform: translateY(0) scale(1.1);
+    transform: translateY(0) scale(1.01);
     visibility: visible;
     background-color: rgba(53, 52, 52, 0.418);
     box-shadow: 0 0 10px 5px rgba(53, 52, 52, 0.418); /* Efeito esfumaçado */
 }
 .faixa:hover {
     background-color: rgba(53, 52, 52, 0.586);
+    transform: translateY(0) scale(1.01);
 }
 .container-letter .faixa .line-ingles p {
     color: var(--color-LETTER-principal);
     font-size: 22px;
+    /* font-size: clamp(18px, 1vw, 20px); */
     letter-spacing: 1.2px;
 }
 .container-letter .faixa .line-portugues p {
     color: var(--color-LETTER-secundario);
     font-size: 19px;
+    /* font-size: clamp(12px, 2vw, 20px); */
     letter-spacing: .7px;
 }
 /* ********************************************** */
-/* *RESPONSIVIDADE TELAS MENORES: */
+/* *PÁGINA RODAPÉ: */
 /* ********************************************** */
 .footer {
     display: flex;
@@ -313,82 +318,4 @@ section.music-list ul#music-list li:hover {
     bottom: 0;
     width: 100%;
     z-index: 1000;
-}
-/* ********************************************** */
-/* *RESPONSIVIDADE TELAS MENORES: */
-/* ********************************************** */
-
-/* ********************************************** */
-/* *RESPONSIVO PARA TABLETS */
-/* ********************************************** */
-@media (max-width: 1024px) {
-    section.music-list h1 {
-        font-size: 22px;
-    }
-    section.music-list ul {
-        font-size: 18px;
-    }
-    .container-player {
-        max-width: 200px;
-        height: 110px;
-    }
-    .btn-players button {
-        min-width: 70px;
-        min-height: 35px;
-    }
-    .container-letter {
-        width: 90%;
-        height: auto;
-    }
-    .faixa {
-        height: 70px;
-        min-height: 70px;
-    }
-}
-
-/* ********************************************** */
-/* *RESPONSIVO PARA CELULARES */
-/* ********************************************** */
-@media (max-width: 768px) {
-    section.music-list {
-        padding: 3%;
-        gap: 15px;
-    }
-    section.music-list h1 {
-        font-size: 20px;
-    }
-    section.music-list ul {
-        font-size: 16px;
-    }
-    section.music-list ul#music-list li {
-        padding: 10px;
-    }
-    .back-button {
-        top: 10px;
-        right: 10px;
-        font-size: 10px;
-        padding: 4px 8px;
-    }
-    .container-player {
-        max-width: 180px;
-        height: 100px;
-    }
-    .btn-players button {
-        min-width: 60px;
-        min-height: 30px;
-        font-size: 12px;
-    }
-    .container-letter {
-        width: 95%;
-        height: auto;
-    }
-    .faixa {
-        height: 60px;
-        min-height: 60px;
-        padding: 8px;
-    }
-    .fade-top,
-    .fade-bottom {
-        height: 15px;
-    }
 }
