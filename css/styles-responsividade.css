@@ -111,6 +111,7 @@
         gap: 8px;
         padding: 8px;
         font-size: 10px;
+        padding-top: 20px;
         padding-bottom: 14px;
     }
 }
@@ -153,11 +154,7 @@
         height: 70vh;
         /* width: 600px; */
         width: 85vw;
-        background: 
-            linear-gradient(to bottom, rgba(186, 85, 211, 0.5), transparent) top,
-            linear-gradient(to top, rgba(186, 85, 211, 0.5), transparent) bottom;
-        background-size: 100% 10px;
-        background-repeat: no-repeat;
+        background-size: 100% 15px;
     }
     .faixa {
         gap: 2px;
@@ -172,63 +169,92 @@
     /* *PÁGINA RODAPÉ: */
     /* ********************************************** */
     .footer {
+        padding-top: 10px;
         padding-bottom: 12px;
     }
 }
-/* ********************************************** */
+
+
+
 
 /* ********************************************** */
-/*! *RESPONSIVO PARA CELULARES NA HORIZONTAL (850px)*/
+/* *RESPONSIVO PARA CELULARES NA HORIZONTAL (850px)*/
 /* ********************************************** */
-@media (max-width: 900px) and (orientation: landscape) {
-    /* Reduz altura do player */
-    .container-player {
-        max-width: 200px;
-        min-width: 120px;
-        height: 90px; /* Menos altura para não ocupar muito espaço */
+@media (max-width: 896px) and (orientation: landscape) {
+    /*? Verificado com dúvidas*/
+    .btn-players {
+        gap: 8px;
+        border-radius: 3px;
     }
-    .image-container p {
-        font-size: 12px;
-    }
+    /*? Verificado com dúvidas*/
     .btn-players button {
-        min-width: 50px;
-        min-height: 24px;
+        min-width: 70px;
+        min-height: 30px;
     }
+    /*? Verificado */
+    .btn-players button:hover {
+        transform: scale(1.03);
+    }
+    /*? Verificado */
+    .container-player {
+        gap: 0px;
+        height: 100%;
+    }
+    /*? Verificado */
     .playBtn, .pauseBtn {
-        font-size: 9px;
-        padding: 3px 6px;
+        font-size: 12px;
+        padding: 5px;
     }
+    /*? Verificado */
     .playBtn .bi-play-fill, .pauseBtn .bi-pause-fill {
+        font-size: 12px;
+        padding: 0px;
+    }
+    /*? Verificado */
+    #music-title,
+    #music-artist {
         font-size: 14px;
+        letter-spacing: 1.5px;
     }
+    /*? Verificado */
     .audio-bar {
-        height: 6px;
+        height: 5px;
+        width: 100%;
+        margin: 5px auto;
+        border-radius: 4px;
     }
-
-    /* Ajuste na área da letra */
+    /*? Verificado */
     .container-letter {
-        height: 65vh; /* Ajusta altura para caber mais letras */
-        width: 90vw; /* Usa mais largura */
-        padding: 8px;
-        /* REVER */
-        margin-bottom: 5px;
-        padding-bottom: 5px;
-    }
-    .faixa {
-        gap: 2px;
-        padding: 6px;
-    }
-    .container-letter .faixa .line-ingles p {
-        font-size: clamp(14px, 2.5vw, 18px); /* Reduz fonte se necessário */
-    }
-    .container-letter .faixa .line-portugues p {
-        font-size: clamp(12px, 2vw, 16px);
-    }
-
-    /* Reduz tamanho do rodapé */
-    .footer {
+        height: 55vh;
+        width: 90vw;
         padding: 4px;
+        margin-top: 6px;
+        margin-bottom: 0px;
+        background-size: 100% 12px;
+    }
+    /*? Verificado */
+    .faixa {
+        border-radius: 4px;
+        margin: 8px;
+        padding: 5px;
+        height: 50px;
+        min-height: 60px;
+        transform: translateY(3px);
+        gap: 4px;
+    }
+    /*? Verificado */
+    .container-letter .faixa .line-ingles p {
+        font-size: clamp(16px, 2.4vw, 20px);
+    }
+    /*? Verificado */
+    .container-letter .faixa .line-portugues p {
+        font-size: clamp(14px, 1.9vw, 18px);
+    }
+    /* FOOTER */
+    /*? Verificado */
+    .footer {
+        padding-top: 8px;
+        padding-bottom: 6px;
         font-size: 8px;
-        gap: 0;
     }
 }
