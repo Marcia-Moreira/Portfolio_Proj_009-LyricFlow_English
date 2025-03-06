@@ -67,6 +67,7 @@
         height: 8px;
         border-radius: 3px;
         margin-top: 8px;
+        width: 100%;
     }
     /* Barra de Progresso do Audio */
     .audio-progress {
@@ -174,13 +175,21 @@
     }
 }
 
-
+/* ? APAGAR OS SUPERIORES E REESCREVER A PARTIOR DO LANDSCAPE ABAIXO */
 
 
 /* ********************************************** */
 /*  * OK RESPONSIVO PARA CELULARES NA HORIZONTAL (850px)*/
 /* ********************************************** */
 @media (max-width: 896px) and (orientation: landscape) {
+    .section-player {
+        padding: 15px;
+    }
+    /*? Verificado */
+    .fade-top,
+    .fade-bottom {
+        height: 12px; /* Altura do efeito esfumaçado */
+    }
     /*? Verificado com dúvidas*/
     .btn-players {
         gap: 8px;
@@ -189,6 +198,7 @@
     /*? Verificado com dúvidas*/
     .btn-players button {
         min-width: 70px;
+        height: 20px;
         min-height: 10px;
     }
     /*? Verificado */
@@ -203,7 +213,7 @@
     /*? Verificado */
     .playBtn, .pauseBtn {
         font-size: 12px;
-        padding: 5px;
+        padding: 4px;
     }
     /*? Verificado */
     .playBtn .bi-play-fill, .pauseBtn .bi-pause-fill {
@@ -213,7 +223,7 @@
     /*? Verificado */
     #music-title,
     #music-artist {
-        font-size: 14px;
+        font-size: 12px;
         letter-spacing: 1.5px;
     }
     /*? Verificado */
@@ -225,7 +235,8 @@
     }
     /*? Verificado */
     .container-letter {
-        height: 55vh;
+        height: 65vh;
+        min-height: 55vh;
         width: 90vw;
         padding: 4px;
         margin-top: 6px;
@@ -256,5 +267,8 @@
         padding-top: 8px;
         padding-bottom: 6px;
         font-size: 8px;
+    }
+    .footer-player {
+        display: none; /* Mantém o rodapé sumido só no player */
     }
 }
