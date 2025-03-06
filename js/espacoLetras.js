@@ -5,7 +5,7 @@ function ajustarEspacoLetras() {
     if (!container) return;
 
     const alturaContainer = container.clientHeight;
-    const alturaFaixa = document.querySelector(".faixa")?.offsetHeight || 30;
+    const alturaFaixa = document.querySelector(".faixa")?.offsetHeight || 20;
     
     // Define margens dinâmicas para evitar cortes
     container.style.paddingTop = `${alturaFaixa}px`;

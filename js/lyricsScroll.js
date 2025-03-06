@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             
             // Faz a rolagem para que a linha ativa fique no centro do container
             lyricsContainer.scrollTo({
-                top: lineOffset - containerHeight / 2,
+                top: lineOffset - containerHeight / 3,
                 behavior: "smooth"
             });
         }

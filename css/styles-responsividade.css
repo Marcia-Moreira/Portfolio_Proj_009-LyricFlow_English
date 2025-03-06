@@ -178,7 +178,7 @@
 
 
 /* ********************************************** */
-/* *RESPONSIVO PARA CELULARES NA HORIZONTAL (850px)*/
+/*  * OK RESPONSIVO PARA CELULARES NA HORIZONTAL (850px)*/
 /* ********************************************** */
 @media (max-width: 896px) and (orientation: landscape) {
     /*? Verificado com dúvidas*/
@@ -189,7 +189,7 @@
     /*? Verificado com dúvidas*/
     .btn-players button {
         min-width: 70px;
-        min-height: 30px;
+        min-height: 10px;
     }
     /*? Verificado */
     .btn-players button:hover {
