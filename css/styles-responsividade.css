@@ -33,6 +33,7 @@
     .container-player {
         max-width: 190px;
         min-width: 110px;
+        /* REVER ALTURA */
         height: 110px;
         border-radius: 4px;
         padding: 2px;
@@ -84,11 +85,11 @@
         border-radius: 4px;
         padding: 6px;
         margin: 18px;
-        background: 
+        /* background: 
             linear-gradient(to bottom, rgba(186, 85, 211, 0.5), transparent) top,
             linear-gradient(to top, rgba(186, 85, 211, 0.5), transparent) bottom;
         background-size: 100% 15px;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
     }
     .faixa {
         border-radius: 6px;
@@ -175,8 +176,7 @@
     }
 }
 
-/* ? APAGAR OS SUPERIORES E REESCREVER A PARTIOR DO LANDSCAPE ABAIXO */
-
+/* ? APAGAR OS SUPERIORES E REESCREVER A PARTIOR DO LANDSCAPE ABAIXO? */
 
 /* ********************************************** */
 /*  * OK RESPONSIVO PARA CELULARES NA HORIZONTAL (850px)*/
@@ -243,8 +243,6 @@
     }
     /*? Verificado */
     .container-letter {
-        /*? REVER 07-03-13:40h */
-        /* flex: 1; */
         /* height: 50vh; */
         /* Altura menos esfumaçado da borda: */
         height: calc(65vh - 24px);
@@ -296,7 +294,25 @@
         padding-bottom: 6px;
         font-size: 8px;
     }
+    .footer p {
+        letter-spacing: 1.5px;
+    }
     .footer-player {
         display: none; /* Mantém o rodapé sumido só no player */
+    }
+}
+
+
+/*! Não funcionou Nada Bem */
+/* Estilos específicos para telas maiores (acima de 915px) */
+@media (min-width: 916px) {
+    .faixa {
+        min-height: 100px; /* Ajuste a altura mínima para telas maiores */
+    }
+
+    .hide-pt .line-ingles,
+    .hide-en .line-portugues {
+        font-size: 18px; 
+        /* Ajuste o tamanho da fonte para telas maiores */
     }
 }
