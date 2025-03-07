@@ -238,7 +238,9 @@ section.music-list ul#music-list li:hover {
 .container-letter {
     display: none;
     position: relative;
-    overflow-y: scroll; /*! Deixa rolar vertical */
+    /*! Deixa rolar vertical: */
+    overflow-y: scroll;
+    /* overflow-y: auto; */
     overflow-x: hidden;
     /* height: 350px; */
     height: 65vh; /* Altura fixa Landscape */
