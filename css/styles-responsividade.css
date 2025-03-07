@@ -243,8 +243,12 @@
     }
     /*? Verificado */
     .container-letter {
-        height: 65vh;
-        min-height: 50vh;
+        /*? REVER 07-03-13:40h */
+        /* flex: 1; */
+        /* height: 50vh; */
+        /* Altura menos esfumaçado da borda: */
+        height: calc(65vh - 24px);
+        min-height: 40vh;
         width: 90vw;
         padding: 4px;
         margin-top: 6px;
