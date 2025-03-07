@@ -238,21 +238,46 @@ section.music-list ul#music-list li:hover {
 .container-letter {
     display: none;
     position: relative;
-    overflow: hidden;
+    overflow-y: scroll; /*! Deixa rolar vertical */
+    overflow-x: hidden;
     /* height: 350px; */
-    height: 65vh;
+    height: 65vh; /* Altura fixa Landscape */
     /* width: 600px; */
     width: 60vw;
     border-radius: 5px;
     padding: 8px;
     margin: 20px;
     transition: background-color 0.4s ease;
+    background: transparent;
+
+    /* BORDAS ESFUMAÇADAS LILAS: */
     /* Gradiente esfumaçado nas bordas superior e inferior */
-    background: 
+    /* background: 
         linear-gradient(to bottom, rgba(186, 85, 211, 0.5), transparent) top,
         linear-gradient(to top, rgba(186, 85, 211, 0.5), transparent) bottom;
     background-size: 100% 20px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+
+    /* BORDAS APAGADAS: */
+    /* -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
+    background-repeat: no-repeat; */
+
+    /* Máscara para esmaecer as bordas */
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 5%,
+        rgba(0, 0, 0, 0) 6%,
+        rgba(0, 0, 0, 0) 94%,
+        transparent 95%
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        rgba(0, 0, 0, 1) 10%,
+        rgba(0, 0, 0, 1) 90%,
+        transparent 99%
+    );
 }
 .container-letter::before,
 .container-letter::after {
@@ -261,7 +286,6 @@ section.music-list ul#music-list li:hover {
     position: absolute;
     left: 0;
     width: 100%;
-    background: transparent;
 }
 .faixa {
     display: flex;
@@ -277,6 +301,8 @@ section.music-list ul#music-list li:hover {
     min-height: 80px;
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out, background-color 0.4s ease;
     transform: translateY(5px);
+
+    opacity: 1;
 }
 .faixa.active {
     opacity: 1;

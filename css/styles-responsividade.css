@@ -181,8 +181,10 @@
 /* ********************************************** */
 /*  * OK RESPONSIVO PARA CELULARES NA HORIZONTAL (850px)*/
 /* ********************************************** */
-@media (max-width: 896px) and (orientation: landscape) {
+/* Landscape Galaxy S20 Ultra = 915 x 412 */
+@media (max-width: 916px) and (orientation: landscape) {
     .section-player {
+        flex: 1;
         padding: 15px;
     }
     /*? Verificado */
@@ -207,6 +209,7 @@
     }
     /*? Verificado */
     .container-player {
+        /* flex: 1; */
         gap: 0px;
         height: 100%;
     }
@@ -241,7 +244,23 @@
         padding: 4px;
         margin-top: 6px;
         margin-bottom: 0px;
-        background-size: 100% 12px;
+        background-size: 100% 14px;
+
+        /* Máscara para esmaecer as bordas */
+        -webkit-mask-image: linear-gradient(
+            to bottom,
+            transparent 5%,
+            rgba(0, 0, 0, 0) 6%,
+            rgba(0, 0, 0, 0) 93%,
+            transparent 94%
+        );
+        mask-image: linear-gradient(
+            to bottom,
+            transparent 0%,
+            rgba(0, 0, 0, 1) 5%,
+            rgba(0, 0, 0, 1) 95%,
+            transparent 99%
+        );
     }
     /*? Verificado */
     .faixa {
