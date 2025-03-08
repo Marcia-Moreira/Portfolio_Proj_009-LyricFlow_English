@@ -321,12 +321,14 @@ section.music-list ul#music-list li:hover {
     font-size: 22px;
     /* font-size: clamp(18px, 1vw, 20px); */
     letter-spacing: 1.2px;
+    padding-top: 10px;
 }
 .container-letter .faixa .line-portugues p {
     color: var(--color-LETTER-secundario);
     font-size: 19px;
     /* font-size: clamp(12px, 2vw, 20px); */
     letter-spacing: .7px;
+    /* padding-top: 5px; */
 }
 /* ********************************************** */
 /* *BARRA DE ROLAGEM PERSONALIZADA: */
