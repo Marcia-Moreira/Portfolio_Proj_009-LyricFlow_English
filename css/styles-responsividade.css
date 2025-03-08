@@ -144,11 +144,11 @@
         gap: 2px;
     }
     .container-letter .faixa .line-ingles p {
-        font-size: 18px;
+        font-size: 16px;
         padding-top: 5px;
     }
     .container-letter .faixa .line-portugues p {
-        font-size: 16px;
+        font-size: 14px;
     }
     .footer {
         padding-top: 10px;
@@ -290,13 +290,21 @@
 
 /*! Não funcionou Nada Bem */
 /* Estilos específicos para telas maiores (acima de 915px) */
-/* @media (min-width: 916px) {
+@media (min-width: 916px) {
     .faixa {
         min-height: 100px;
     }
-
     .hide-pt .line-ingles,
     .hide-en .line-portugues {
         font-size: 18px; 
     }
-} */
+    /*? Verificado */
+    .container-letter .faixa .line-ingles p {
+        font-size: clamp(16px, 2.3vw, 20px);
+        padding-top: 5px;
+    }
+    /*? Verificado */
+    .container-letter .faixa .line-portugues p {
+        font-size: clamp(14px, 1.8vw, 18px);
+    }
+}
