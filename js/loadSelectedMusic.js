@@ -45,16 +45,31 @@ document.addEventListener("DOMContentLoaded", async () => {
             lineDiv.classList.add("faixa");
             lineDiv.setAttribute("data-time", line.start); // Define o tempo da linha
 
+            // Linha em inglês:
             const lineEng = document.createElement("div");
             lineEng.classList.add("line-ingles");
             lineEng.innerHTML = `<p>${line.text_en}</p>`;
 
+            // Linha em português:
             const linePt = document.createElement("div");
             linePt.classList.add("line-portugues");
             linePt.innerHTML = `<p>${line.text_pt}</p>`;
 
+            // Linha de pronúncia fonética:
+            const linePron = document.createElement("div");
+            linePron.classList.add("line-pronuncia");
+            linePron.innerHTML = `<p>${line.text_pron}</p>`;
+
+            // Adiciona as linhas à faixa:
             lineDiv.appendChild(lineEng);
             lineDiv.appendChild(linePt);
+            // lineDiv.appendChild(linePron);
+            // Adiciona a pronúncia
+
+            // Armazena a linha de pronúncia como uma propriedade da faixa
+            lineDiv.linePron = linePron;
+
+            // Adiciona a faixa ao container de letras:
             lyricsContainer.appendChild(lineDiv);
         });
 

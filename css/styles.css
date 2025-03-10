@@ -20,6 +20,7 @@
 
     --color-LETTER-principal: rgb(137, 43, 226);
     --color-LETTER-secundario: rgb(255, 255, 255);
+    --color-LETTER-terciario: rgb(181, 126, 232);
 
     --color-BORDER-principal: rgb(245, 245, 245);
     --color-BORDER-secundario:rgb(0, 0, 0);
@@ -398,6 +399,17 @@ section.music-list ul#music-list li:hover {
     height: 100%;
     padding-top: 20px;
 }
+/* Classes da Linha Pronûncia: */
+/* Classe para mostrar a pronúncia fonética */
+
+.show-pron .line-portugues {
+    display: none; /* Esconde a linha em português */
+}
+.line-pronuncia {
+    color: var(--color-LETTER-terciario);
+    letter-spacing: .7px;
+}
+
 /* ********************************************** */
 /* *PÁGINA RODAPÉ: */
 /* ********************************************** */
