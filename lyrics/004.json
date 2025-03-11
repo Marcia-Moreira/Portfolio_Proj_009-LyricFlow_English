@@ -1,0 +1,418 @@
+{
+  "title": "Memories",
+  "artist": "Maroon 5",
+  "composer": "Adam Levine / Jacob Kasher / Jon Bellion / Jordan K. Johnson / Michael Pollack / Stefan Johnson / Vincent Ford",
+  "audioSrc": "./audio/007.m4a",
+  "lyricsFile": "C:\\Portfolio_Marcia_Moreira-GERAL\\Portfolio_Proj_009-LyricFlow_English\\lyrics\\004.txt",
+  "scrollSpeed": 0,
+  "lyrics": [
+    {
+      "start": 0,
+      "text_pt": "- Lembranças -",
+      "text_en": "- Memories -",
+      "text_pron": "- Mémoriz -"
+    },
+    {
+      "start": 2,
+      "text_pt": "... 🎶 🎼 🎵 ...",
+      "text_en": "... 🎶 🎼 🎵 ...",
+      "text_pron": "... 🎶 🎼 🎵 ..."
+    },
+    {
+      "start": 12,
+      "text_pt": "Um brinde às pessoas que temos",
+      "text_en": "Here's to the ones that we got",
+      "text_pron": "Hírs tu dé uãns dât wi gat"
+    },
+    {
+      "start": 14,
+      "text_pt": "Um brinde ao desejo de que você estivesse aqui, mas não está",
+      "text_en": "Cheers to the wish you were here, but you're not",
+      "text_pron": "Tchírs tu dé wish iú wér hír, bát iúr nât"
+    },
+    {
+      "start": 17,
+      "text_pt": "Porque as bebidas trazem de volta todas as lembranças",
+      "text_en": "'Cause the drinks bring back all the memories",
+      "text_pron": "Câs dé drinks bring bâc ôl dé mémoriz"
+    },
+    {
+      "start": 19,
+      "text_pt": "De tudo que já passamos",
+      "text_en": "Of everything we've been through",
+      "text_pron": "Of évrithin wív bín frú"
+    },
+    {
+      "start": 22,
+      "text_pt": "Um brinde aos que estão aqui hoje",
+      "text_en": "Toast to the ones here today",
+      "text_pron": "Tôust tu dé uãns hír tudêi"
+    },
+    {
+      "start": 25,
+      "text_pt": "Um brinde para aqueles que perdemos pelo caminho",
+      "text_en": "Toast to the ones that we lost on the way",
+      "text_pron": "Tôust tu dé uãns dât wi lóst on dé wêi"
+    },
+    {
+      "start": 28,
+      "text_pt": "Porque as bebidas trazem de volta todas as lembranças",
+      "text_en": "'Cause the drinks bring back all the memories",
+      "text_pron": "Câs dé drinks bring bâc ôl dé mémoriz"
+    },
+    {
+      "start": 30,
+      "text_pt": "E as lembranças trazem de volta, as lembranças trazem de volta você",
+      "text_en": "And the memories bring back, memories bring back you",
+      "text_pron": "And dé mémoriz bring bâc, mémoriz bring bâc iú"
+    },
+    {
+      "start": 34,
+      "text_pt": "Houve um tempo, eu me lembro",
+      "text_en": "There's a time that I remember",
+      "text_pron": "Dérs á táim dât ái rimémber"
+    },
+    {
+      "start": 37,
+      "text_pt": "Em que eu não conhecia nenhuma dor",
+      "text_en": "When I did not know no pain",
+      "text_pron": "Wén ái díd nât nôu nôu pêin"
+    },
+    {
+      "start": 39,
+      "text_pt": "Quando eu acreditava no para sempre",
+      "text_en": "When I believed in forever",
+      "text_pron": "Wén ái bilívd in forévêr"
+    },
+    {
+      "start": 42,
+      "text_pt": "E que tudo continuaria igual",
+      "text_en": "And everything would stay the same",
+      "text_pron": "And évrithin wúd stêi dé sêim"
+    },
+    {
+      "start": 45,
+      "text_pt": "Agora meu coração se sente como em dezembro",
+      "text_en": "Now my heart feel like December",
+      "text_pron": "Náu mai hárt fíl láik Disémber"
+    },
+    {
+      "start": 47,
+      "text_pt": "Quando alguém diz o seu nome  ",
+      "text_en": "When somebody say your name  ",
+      "text_pron": "Wén sâmbadi sêi iúr nêim  "
+    },
+    {
+      "start": 50,
+      "text_pt": "Porque eu não consigo criar coragem pra te ligar  ",
+      "text_en": "'Cause I can't reach out to call you  ",
+      "text_pron": "Câs ái cân't rítch áut tu côl iú  "
+    },
+    {
+      "start": 53,
+      "text_pt": "Mas eu sei que um dia vou conseguir, sim  ",
+      "text_en": "But I know I will one day, yeah  ",
+      "text_pron": "Bát ái nôu ái wíl uãn dêi, iê  "
+    },
+    {
+      "start": 56,
+      "text_pt": "Todo mundo se machuca às vezes  ",
+      "text_en": "Everybody hurts sometimes  ",
+      "text_pron": "Évribadi hêrts sâmtáims  "
+    },
+    {
+      "start": 59,
+      "text_pt": "Todo mundo se machuca algum dia, ei, ei  ",
+      "text_en": "Everybody hurts someday, ay, ay  ",
+      "text_pron": "Évribadi hêrts sâmdêi, êi, êi  "
+    },
+    {
+      "start": 62,
+      "text_pt": "Mas vai ficar tudo bem  ",
+      "text_en": "But everything gon' be alright  ",
+      "text_pron": "Bát évrithin gon bi ôlráit  "
+    },
+    {
+      "start": 64,
+      "text_pt": "Vá e levante um copo e diga, ei  ",
+      "text_en": "Go and raise a glass and say, ay  ",
+      "text_pron": "Gôu and rêiz á glâs and sêi, êi  "
+    },
+    {
+      "start": 66,
+      "text_pt": "Um brinde às pessoas que temos  ",
+      "text_en": "Here's to the ones that we got  ",
+      "text_pron": "Hírs tu dé uãns dât wi gat  "
+    },
+    {
+      "start": 69,
+      "text_pt": "Um brinde ao desejo de que você estivesse aqui, mas não está",
+      "text_en": "Cheers to the wish you were here, but you're not",
+      "text_pron": "Tchírs tu dé wish iú wér hír, bát iúr nât"
+    },
+    {
+      "start": 71,
+      "text_pt": "Porque as bebidas trazem de volta todas as lembranças",
+      "text_en": "'Cause the drinks bring back all the memories",
+      "text_pron": "Câs dé drinks bring bâc ôl dé mémoriz"
+    },
+    {
+      "start": 74,
+      "text_pt": "De tudo que já passamos  ",
+      "text_en": "Of everything we've been through  ",
+      "text_pron": "Of évrithin wív bín frú  "
+    },
+    {
+      "start": 77,
+      "text_pt": "Um brinde aos que estão aqui hoje  ",
+      "text_en": "Toast to the ones here today  ",
+      "text_pron": "Tôust tu dé uãns hír tudêi  "
+    },
+    {
+      "start": 79,
+      "text_pt": "Um brinde para aqueles que perdemos pelo caminho  ",
+      "text_en": "Toast to the ones that we lost on the way  ",
+      "text_pron": "Tôust tu dé uãns dât wi lóst on dé wêi  "
+    },
+    {
+      "start": 81,
+      "text_pt": "Porque as bebidas trazem de volta todas as lembranças",
+      "text_en": "'Cause the drinks bring back all the memories",
+      "text_pron": "Câs dé drinks bring bâc ôl dé mémoriz"
+    },
+    {
+      "start": 84,
+      "text_pt": "E as lembranças trazem de volta, as lembranças trazem de volta você",
+      "text_en": "And the memories bring back, memories bring back you",
+      "text_pron": "And dé mémoriz bring bâc, mémoriz bring bâc iú"
+    },
+    {
+      "start": 88,
+      "text_pt": "Doo, doo, doo, doo, doo, doo  ",
+      "text_en": "Doo, doo, doo, doo, doo, doo  ",
+      "text_pron": "Dú, dú, dú, dú, dú, dú  "
+    },
+    {
+      "start": 90,
+      "text_pt": "Doo, doo, doo, doo, doo, doo, doo, doo  ",
+      "text_en": "Doo, doo, doo, doo, doo, doo, doo, doo  ",
+      "text_pron": "Dú, dú, dú, dú, dú, dú, dú, dú  "
+    },
+    {
+      "start": 93,
+      "text_pt": "Doo, doo, doo, doo, doo, doo, doo  ",
+      "text_en": "Doo, doo, doo, doo, doo, doo, doo  ",
+      "text_pron": "Dú, dú, dú, dú, dú, dú, dú  "
+    },
+    {
+      "start": 95,
+      "text_pt": "As lembranças trazem de volta, as lembranças trazem de volta você",
+      "text_en": "Memories bring back, memories bring back you",
+      "text_pron": "Mémoriz bring bâc, mémoriz bring bâc iú"
+    },
+    {
+      "start": 98,
+      "text_pt": "Houve um tempo, eu me lembro  ",
+      "text_en": "There's a time that I remember  ",
+      "text_pron": "Dérs á táim dât ái rimémber  "
+    },
+    {
+      "start": 101,
+      "text_pt": "Que eu nunca tinha me sentido tão perdido  ",
+      "text_en": "When I never felt so lost  ",
+      "text_pron": "Wén ái nêver félt sôu lóst  "
+    },
+    {
+      "start": 104,
+      "text_pt": "Quando senti todo o ódio  ",
+      "text_en": "When I felt all of the hatred  ",
+      "text_pron": "Wén ái félt ôl of dé hêitrid  "
+    },
+    {
+      "start": 107,
+      "text_pt": "Era poderoso demais para parar (oh, sim)  ",
+      "text_en": "Was too powerful to stop (oh, yeah)  ",
+      "text_pron": "Wâs tú pâuêrful tu stóp (ôu, iê)  "
+    },
+    {
+      "start": 109,
+      "text_pt": "Agora meu coração parece uma brasa  ",
+      "text_en": "Now my heart feel like an ember  ",
+      "text_pron": "Náu mai hárt fíl láik án émber  "
+    },
+    {
+      "start": 112,
+      "text_pt": "E está iluminando a escuridão  ",
+      "text_en": "And it's lighting up the dark  ",
+      "text_pron": "And its láitin âp dé dárk  "
+    },
+    {
+      "start": 114,
+      "text_pt": "Eu vou carregar essas tochas para você  ",
+      "text_en": "I'll carry these torches for ya  ",
+      "text_pron": "Áil cári dís tórchis for iá  "
+    },
+    {
+      "start": 117,
+      "text_pt": "Para que você saiba que eu nunca vou deixar que caiam, sim",
+      "text_en": "That you know I'll never drop, yeah",
+      "text_pron": "Dât iú nôu áil nêver dróp, iê"
+    },
+    {
+      "start": 121,
+      "text_pt": "Todo mundo se machuca às vezes  ",
+      "text_en": "Everybody hurts sometimes  ",
+      "text_pron": "Évribadi hêrts sâmtáims  "
+    },
+    {
+      "start": 122,
+      "text_pt": "Todo mundo se machuca algum dia, ei, ei  ",
+      "text_en": "Everybody hurts someday, ay, ay  ",
+      "text_pron": "Évribadi hêrts sâmdêi, êi, êi  "
+    },
+    {
+      "start": 126,
+      "text_pt": "Mas vai ficar tudo bem  ",
+      "text_en": "But everything gon' be alright  ",
+      "text_pron": "Bát évrithin gon bi ôlráit  "
+    },
+    {
+      "start": 128,
+      "text_pt": "Vá e levante um copo e diga, ei  ",
+      "text_en": "Go and raise a glass and say, ay  ",
+      "text_pron": "Gôu and rêiz á glâs and sêi, êi  "
+    },
+    {
+      "start": 131,
+      "text_pt": "Um brinde às pessoas que temos (oh, oh)  ",
+      "text_en": "Here's to the ones that we got (oh, oh)  ",
+      "text_pron": "Hírs tu dé uãns dât wi gat (ôu, ôu)  "
+    },
+    {
+      "start": 133,
+      "text_pt": "Um brinde ao desejo de que você estivesse aqui, mas não está",
+      "text_en": "Cheers to the wish you were here, but you're not",
+      "text_pron": "Tchírs tu dé wish iú wér hír, bát iúr nât"
+    },
+    {
+      "start": 136,
+      "text_pt": "Porque as bebidas trazem de volta todas as lembranças",
+      "text_en": "'Cause the drinks bring back all the memories",
+      "text_pron": "Câs dé drinks bring bâc ôl dé mémoriz"
+    },
+    {
+      "start": 138,
+      "text_pt": "De tudo que já passamos (no, no)  ",
+      "text_en": "Of everything we've been through (no, no)  ",
+      "text_pron": "Of évrithin wív bín frú (nôu, nôu)  "
+    },
+    {
+      "start": 141,
+      "text_pt": "Um brinde aos que estão aqui hoje  ",
+      "text_en": "Toast to the ones here today  ",
+      "text_pron": "Tôust tu dé uãns hír tudêi  "
+    },
+    {
+      "start": 144,
+      "text_pt": "Um brinde para aqueles que perdemos pelo caminho",
+      "text_en": "Toast to the ones that we lost on the way",
+      "text_pron": "Tôust tu dé uãns dât wi lóst on dé wêi"
+    },
+    {
+      "start": 146,
+      "text_pt": "Porque as bebidas trazem de volta todas as lembranças",
+      "text_en": "'Cause the drinks bring back all the memories",
+      "text_pron": "Câs dé drinks bring bâc ôl dé mémoriz"
+    },
+    {
+      "start": 149,
+      "text_pt": "E as lembranças trazem de volta, as lembranças trazem de volta você",
+      "text_en": "And the memories bring back, memories bring back you",
+      "text_pron": "And dé mémoriz bring bâc, mémoriz bring bâc iú"
+    },
+    {
+      "start": 152,
+      "text_pt": "Doo, doo, doo, doo, doo, doo  ",
+      "text_en": "Doo, doo, doo, doo, doo, doo  ",
+      "text_pron": "Dú, dú, dú, dú, dú, dú  "
+    },
+    {
+      "start": 155,
+      "text_pt": "Doo, doo, doo, doo, doo, doo, doo, doo  ",
+      "text_en": "Doo, doo, doo, doo, doo, doo, doo, doo  ",
+      "text_pron": "Dú, dú, dú, dú, dú, dú, dú, dú  "
+    },
+    {
+      "start": 157,
+      "text_pt": "Doo, doo, doo, doo, doo, doo, doo (ooh, sim)",
+      "text_en": "Doo, doo, doo, doo, doo, doo, doo (ooh, yeah)",
+      "text_pron": "Dú, dú, dú, dú, dú, dú, dú (ú, iê)"
+    },
+    {
+      "start": 160,
+      "text_pt": "As lembranças trazem, as lembranças trazem você de volta",
+      "text_en": "Memories bring back, memories bring back you",
+      "text_pron": "Mémoriz bring bâc, mémoriz bring bâc iú"
+    },
+    {
+      "start": 163,
+      "text_pt": "Doo, doo, doo, doo, doo, doo  ",
+      "text_en": "Doo, doo, doo, doo, doo, doo  ",
+      "text_pron": "Dú, dú, dú, dú, dú, dú  "
+    },
+    {
+      "start": 165,
+      "text_pt": "Doo, doo, doo, doo, doo, doo, doo, doo  ",
+      "text_en": "Doo, doo, doo, doo, doo, doo, doo, doo  ",
+      "text_pron": "Dú, dú, dú, dú, dú, dú, dú, dú  "
+    },
+    {
+      "start": 168,
+      "text_pt": "Doo, doo, doo, doo, doo, doo, doo (ooh, sim)",
+      "text_en": "Doo, doo, doo, doo, doo, doo, doo (ooh, yeah)",
+      "text_pron": "Dú, dú, dú, dú, dú, dú, dú (ú, iê)"
+    },
+    {
+      "start": 170,
+      "text_pt": "As lembranças trazem, as lembranças trazem você de volta",
+      "text_en": "Memories bring back, memories bring back you",
+      "text_pron": "Mémoriz bring bâc, mémoriz bring bâc iú"
+    },
+    {
+      "start": 175,
+      "text_pt": "Sim, sim, sim  ",
+      "text_en": "Yeah, yeah, yeah  ",
+      "text_pron": "Iê, iê, iê  "
+    },
+    {
+      "start": 177,
+      "text_pt": "Sim, sim, sim, sim, sim, não, não  ",
+      "text_en": "Yeah, yeah, yeah, yeah, no, no  ",
+      "text_pron": "Iê, iê, iê, iê, nôu, nôu  "
+    },
+    {
+      "start": 181,
+      "text_pt": "As lembranças trazem de volta, as lembranças trazem de volta você",
+      "text_en": "Memories bring back, memories bring back you",
+      "text_pron": "Mémoriz bring bâc, mémoriz bring bâc iú"
+    },
+    {
+      "start": 184,
+      "text_pt": "... 🎶 🎼 🎵 ...",
+      "text_en": "... 🎶 🎼 🎵 ...",
+      "text_pron": "... 🎶 🎼 🎵 ..."
+    },
+    {
+      "start": 186,
+      "text_pt": "FIM",
+      "text_en": "END",
+      "text_pron": "END"
+    },
+    {
+      "start": 9999,
+      "text_pt": "Composição: Adam Levine / Jacob Kasher / Jon Bellion / Jordan K. Johnson / Michael Pollack / Stefan Johnson / Vincent Ford",
+      "text_en": "Composition: Adam Levine / Jacob Kasher / Jon Bellion / Jordan K. Johnson / Michael Pollack / Stefan Johnson / Vincent Ford",
+      "text_pron": "Cômpozíshon: Adam Levine / Jacob Kasher / Jon Bellion / Jordan K. Johnson / Michael Pollack / Stefan Johnson / Vincent Ford"
+    }
+  ]
+}

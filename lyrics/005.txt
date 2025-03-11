@@ -1,6 +1,6 @@
-[00:00] Humano  
-[00:00] Human  
-[00:00] Hiúmen  
+[00:00] - Humano - 
+[00:00] - Human -
+[00:00] - Hiúmen -
 
 [00:00] (Sou apenas humano)  
 [00:00] (I'm only human)  
@@ -216,4 +216,12 @@
 
 [00:00] Não coloque sua culpa em mim  
 [00:00] Don't put your blame on me  
-[00:00] Dôunt pút iúr blêim on mí  
+[00:00] Dôunt pút iúr blêim on mí
+
+[03:59] ... 🎶 🎼 🎵 ...
+[03:59] ... 🎶 🎼 🎵 ...
+[03:59] ... 🎶 🎼 🎵 ...
+
+[04:11] FIM
+[04:11] END
+[04:11] END

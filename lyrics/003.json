@@ -1,0 +1,310 @@
+{
+  "title": "It Will Rain",
+  "artist": "Bruno Mars",
+  "composer": "Philip Lawrence / Bruno Mars / Ari Levine",
+  "audioSrc": "./audio/003.m4a",
+  "lyricsFile": "C:\\Portfolio_Marcia_Moreira-GERAL\\Portfolio_Proj_009-LyricFlow_English\\lyrics\\003.txt",
+  "scrollSpeed": 0,
+  "lyrics": [
+    {
+      "start": 0,
+      "text_pt": "- Irá Chover -  ",
+      "text_en": "- It Will Rain -  ",
+      "text_pron": "- It wíl rêin -  "
+    },
+    {
+      "start": 6,
+      "text_pt": "Se um dia você me deixar, amor  ",
+      "text_en": "If you ever leave me, baby  ",
+      "text_pron": "If iú éver lív mí, bêibi  "
+    },
+    {
+      "start": 12,
+      "text_pt": "Deixe um pouco de morfina na minha porta  ",
+      "text_en": "Leave some morphine at my door  ",
+      "text_pron": "Lív sâm mórfin át mai dór  "
+    },
+    {
+      "start": 17,
+      "text_pt": "Porque precisaria de muitos medicamentos  ",
+      "text_en": "'Cause it would take a whole lot of medication  ",
+      "text_pron": "Câs it wúd têik á hôul lót of médikêishon  "
+    },
+    {
+      "start": 24,
+      "text_pt": "Para perceber que o que nós costumávamos ter  ",
+      "text_en": "To realize what we used to have  ",
+      "text_pron": "Tu ríalaiz wât wi iúzd tu hâv  "
+    },
+    {
+      "start": 26,
+      "text_pt": "Nós não temos mais  ",
+      "text_en": "We don't have it anymore  ",
+      "text_pron": "Wi dôunt hâv it enimór  "
+    },
+    {
+      "start": 30,
+      "text_pt": "Não há religião que possa me salvar  ",
+      "text_en": "There's no religion that could save me  ",
+      "text_pron": "Dérs nôu rilíjon dât cúd sêiv mí  "
+    },
+    {
+      "start": 36,
+      "text_pt": "Não importa quanto tempo meus joelhos estejam no chão, oh  ",
+      "text_en": "No matter how long my knees are on the floor, oh  ",
+      "text_pron": "Nôu mâter háu lóng mai nís ár on dé flór, ôu  "
+    },
+    {
+      "start": 43,
+      "text_pt": "Então se lembre de todos os sacrifícios que estou fazendo  ",
+      "text_en": "So keep in mind all the sacrifices I'm making  ",
+      "text_pron": "Sôu kíp in máind ôl dé sâkrifáisis áim mêikin  "
+    },
+    {
+      "start": 49,
+      "text_pt": "Para te manter ao meu lado  ",
+      "text_en": "To keep you by my side  ",
+      "text_pron": "Tu kíp iú bái mai sáid  "
+    },
+    {
+      "start": 52,
+      "text_pt": "Para evitar que você saia pela porta  ",
+      "text_en": "To keep you from walking out the door  ",
+      "text_pron": "Tu kíp iú from wókin áut dé dór  "
+    },
+    {
+      "start": 55,
+      "text_pt": "Porque não haverá luz do Sol  ",
+      "text_en": "'Cause there'll be no sunlight  ",
+      "text_pron": "Câs dérl bi nôu sânláit  "
+    },
+    {
+      "start": 58,
+      "text_pt": "Se eu te perder, amor  ",
+      "text_en": "If I lose you, baby  ",
+      "text_pron": "If ái lúz iú, bêibi  "
+    },
+    {
+      "start": 63,
+      "text_pt": "Não haverá céu limpo  ",
+      "text_en": "There'll be no clear skies  ",
+      "text_pron": "Dérl bi nôu clír skáis  "
+    },
+    {
+      "start": 65,
+      "text_pt": "Se eu te perder, amor  ",
+      "text_en": "If I lose you, baby  ",
+      "text_pron": "If ái lúz iú, bêibi  "
+    },
+    {
+      "start": 69,
+      "text_pt": "Assim como as nuvens, meus olhos farão o mesmo  ",
+      "text_en": "Just like the clouds, my eyes will do the same  ",
+      "text_pron": "Jâst láik dé cláudz, mai áis wíl dú dé sêim  "
+    },
+    {
+      "start": 74,
+      "text_pt": "Se você for embora, todo dia irá chover, chover, chover  ",
+      "text_en": "If you walk away, everyday it'll rain, rain, rain  ",
+      "text_pron": "If iú wók awêi, évridêi itl rêin, rêin, rêin"
+    },
+    {
+      "start": 85,
+      "text_pt": "... 🎶 🎼 🎵 ...",
+      "text_en": "... 🎶 🎼 🎵 ...",
+      "text_pron": "... 🎶 🎼 🎵 ..."
+    },
+    {
+      "start": 97,
+      "text_pt": "Eu nunca serei o favorito da sua mãe  ",
+      "text_en": "I'll never be your mother's favorite  ",
+      "text_pron": "Áil nêver bi iúr mâders fêivorit  "
+    },
+    {
+      "start": 104,
+      "text_pt": "Seu pai não consegue nem sequer me olhar nos olhos, oh  ",
+      "text_en": "Your daddy can't even look me in the eye, oh  ",
+      "text_pron": "Iúr dâdi cân't íven lúk mí in dé ái, ôu  "
+    },
+    {
+      "start": 110,
+      "text_pt": "Se eu estivesse no lugar deles, estaria fazendo a mesma coisa  ",
+      "text_en": "If I was in their shoes, I'd be doing the same thing  ",
+      "text_pron": "If ái wáz in dér shúz, áid bi dúin dé sêim fing  "
+    },
+    {
+      "start": 116,
+      "text_pt": "Dizendo: Lá vai a minha garotinha  ",
+      "text_en": "Saying: There goes my little girl  ",
+      "text_pron": "Sêin: Dér gôuz mai lítul gãrl  "
+    },
+    {
+      "start": 118,
+      "text_pt": "Andando com aquele cara problemático  ",
+      "text_en": "Walking with that troublesome guy  ",
+      "text_pron": "Wókin wid dât trâblsâm gái  "
+    },
+    {
+      "start": 122,
+      "text_pt": "Mas eles estão apenas com medo de algo que eles não entendem, oh  ",
+      "text_en": "But they're just afraid of something they can't understand, oh  ",
+      "text_pron": "Bât dér jâst afrêid of sâmfin déi cân't anderstând, ôu  "
+    },
+    {
+      "start": 129,
+      "text_pt": "Mas, querida, me observe fazê-los mudar de ideia  ",
+      "text_en": "But, little darling, watch me change their minds  ",
+      "text_pron": "Bât, lítul dárlin, wótch mí tchêindj dér máinds  "
+    },
+    {
+      "start": 134,
+      "text_pt": "Sim, por você, eu vou tentar, vou tentar, vou tentar, vou tentar  ",
+      "text_en": "Yeah, for you, I'll try, I'll try, I'll try, I'll try  ",
+      "text_pron": "Iê, for iú, áil trái, áil trái, áil trái, áil trái  "
+    },
+    {
+      "start": 141,
+      "text_pt": "E vou recolher esses cacos até que eu esteja sangrando  ",
+      "text_en": "And pick up these broken pieces 'til I'm bleeding  ",
+      "text_pron": "And pík âp dís brôuken písis til áim blídin  "
+    },
+    {
+      "start": 145,
+      "text_pt": "Se isso fizer você ser minha  ",
+      "text_en": "If that'll make you mine  ",
+      "text_pron": "If dâtl mêik iú máin  "
+    },
+    {
+      "start": 149,
+      "text_pt": "Porque não haverá luz do Sol  ",
+      "text_en": "'Cause there'll be no sunlight  ",
+      "text_pron": "Câs dérl bi nôu sânláit  "
+    },
+    {
+      "start": 151,
+      "text_pt": "Se eu te perder, amor  ",
+      "text_en": "If I lose you, baby  ",
+      "text_pron": "If ái lúz iú, bêibi  "
+    },
+    {
+      "start": 154,
+      "text_pt": "Não haverá céu limpo  ",
+      "text_en": "There'll be no clear skies  ",
+      "text_pron": "Dérl bi nôu clír skáis  "
+    },
+    {
+      "start": 158,
+      "text_pt": "Se eu te perder, amor  ",
+      "text_en": "If I lose you, baby  ",
+      "text_pron": "If ái lúz iú, bêibi  "
+    },
+    {
+      "start": 162,
+      "text_pt": "Assim como as nuvens, meus olhos farão o mesmo  ",
+      "text_en": "Just like the clouds, my eyes will do the same  ",
+      "text_pron": "Jâst láik dé cláudz, mai áis wíl dú dé sêim  "
+    },
+    {
+      "start": 166,
+      "text_pt": "Se você for embora, todo dia irá chover, chover, chover  ",
+      "text_en": "If you walk away, everyday it'll rain, rain, rain  ",
+      "text_pron": "If iú wók awêi, évridêi itl rêin, rêin, rêin"
+    },
+    {
+      "start": 177,
+      "text_pt": "... 🎶 🎼 🎵 ...",
+      "text_en": "... 🎶 🎼 🎵 ...",
+      "text_pron": "... 🎶 🎼 🎵 ..."
+    },
+    {
+      "start": 188,
+      "text_pt": "Oh, não diga (não diga)  ",
+      "text_en": "Oh, don't you say (don't you say)  ",
+      "text_pron": "Ôu, dôunt iú sêi (dôunt iú sêi)  "
+    },
+    {
+      "start": 192,
+      "text_pt": "Adeus (adeus)  ",
+      "text_en": "Goodbye (goodbye)  ",
+      "text_pron": "Gúdbái (gúdbái)  "
+    },
+    {
+      "start": 195,
+      "text_pt": "Não diga (não diga)  ",
+      "text_en": "Don't you say (don't you say)  ",
+      "text_pron": "Dôunt iú sêi (dôunt iú sêi)  "
+    },
+    {
+      "start": 199,
+      "text_pt": "Adeus (adeus)  ",
+      "text_en": "Goodbye (goodbye)  ",
+      "text_pron": "Gúdbái (gúdbái)  "
+    },
+    {
+      "start": 202,
+      "text_pt": "Vou recolher esses cacos até que eu esteja sangrando  ",
+      "text_en": "I'll pick up these broken pieces 'til I'm bleeding  ",
+      "text_pron": "Áil pík âp dís brôuken písis til áim blídin  "
+    },
+    {
+      "start": 206,
+      "text_pt": "Se isso fizer tudo ficar bem  ",
+      "text_en": "If that'll make it right  ",
+      "text_pron": "If dâtl mêik it ráit  "
+    },
+    {
+      "start": 209,
+      "text_pt": "Porque não haverá luz do Sol  ",
+      "text_en": "'Cause there'll be no sunlight  ",
+      "text_pron": "Câs dérl bi nôu sânláit  "
+    },
+    {
+      "start": 212,
+      "text_pt": "Se eu te perder, amor  ",
+      "text_en": "If I lose you, baby  ",
+      "text_pron": "If ái lúz iú, bêibi  "
+    },
+    {
+      "start": 215,
+      "text_pt": "E não haverá céu limpo  ",
+      "text_en": "And there'll be no clear skies  ",
+      "text_pron": "And dérl bi nôu clír skáis  "
+    },
+    {
+      "start": 218,
+      "text_pt": "Se eu te perder, amor  ",
+      "text_en": "If I lose you, baby  ",
+      "text_pron": "If ái lúz iú, bêibi  "
+    },
+    {
+      "start": 222,
+      "text_pt": "E assim como as nuvens, meus olhos farão o mesmo  ",
+      "text_en": "And just like the clouds, my eyes will do the same  ",
+      "text_pron": "And jâst láik dé cláudz, mai áis wíl dú dé sêim  "
+    },
+    {
+      "start": 227,
+      "text_pt": "Se você for embora, todo dia irá chover, chover, chover  ",
+      "text_en": "If you walk away, everyday it'll rain, rain, rain  ",
+      "text_pron": "If iú wók awêi, évridêi itl rêin, rêin, rêin"
+    },
+    {
+      "start": 239,
+      "text_pt": "... 🎶 🎼 🎵 ...",
+      "text_en": "... 🎶 🎼 🎵 ...",
+      "text_pron": "... 🎶 🎼 🎵 ..."
+    },
+    {
+      "start": 251,
+      "text_pt": "FIM",
+      "text_en": "END",
+      "text_pron": "END"
+    },
+    {
+      "start": 9999,
+      "text_pt": "Composição: Philip Lawrence / Bruno Mars / Ari Levine",
+      "text_en": "Composition: Philip Lawrence / Bruno Mars / Ari Levine",
+      "text_pron": "Cômpozíshon: Philip Lawrence / Bruno Mars / Ari Levine"
+    }
+  ]
+}

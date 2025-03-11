@@ -88,11 +88,48 @@ section.music-list {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 5%;
     gap: 20px;
+    list-style-type: none; /* Remove os marcadores de lista */
 }
+section.music-list .name-program {
+    color: var(--color-LETTER-terciario);
+    font-size: 30px;
+
+    overflow: hidden; /* Esconde o texto inicialmente */
+}
+/* Animação do Letreiro: */
+section.music-list .name-program span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: appear 0.5s forwards;
+}
+@keyframes appear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Atraso para cada letra */
+section.music-list .name-program span:nth-child(1) { animation-delay: 0.1s; }
+section.music-list .name-program span:nth-child(2) { animation-delay: 0.2s; }
+section.music-list .name-program span:nth-child(3) { animation-delay: 0.3s; }
+section.music-list .name-program span:nth-child(4) { animation-delay: 0.4s; }
+section.music-list .name-program span:nth-child(5) { animation-delay: 0.5s; }
+section.music-list .name-program span:nth-child(6) { animation-delay: 0.6s; }
+section.music-list .name-program span:nth-child(7) { animation-delay: 0.7s; }
+section.music-list .name-program span:nth-child(8) { animation-delay: 0.8s; }
+section.music-list .name-program span:nth-child(9) { animation-delay: 0.9s; }
+section.music-list .name-program span:nth-child(10) { animation-delay: 1.0s; }
+section.music-list .name-program span:nth-child(11) { animation-delay: 1.1s; }
+section.music-list .name-program span:nth-child(12) { animation-delay: 1.2s; }
+section.music-list .name-program span:nth-child(13) { animation-delay: 1.3s; }
+section.music-list .name-program span:nth-child(14) { animation-delay: 1.4s; }
+/* ==================== */
 section.music-list h1 {
-    font-size: 26px;
+    font-size: 24px;
     color: var(--color-LETTER-secundario);
     text-align: center;
 }
@@ -102,11 +139,17 @@ section.music-list ul {
     font-size: 22px;
 }
 section.music-list ul#music-list li {
+    display: block;
     color: var(--color-LETTER-principal);
     padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+    transition: transform 0.3s ease-in-out;
 }
 section.music-list ul#music-list li:hover {
     color: var(--color-BG-hover-secundario);
+    transform: scale(1.02);
+    font-weight: 600;
 }
 /* ********************************************** */
 /* *BOTÃO VOLTAR A LISTAGEM: */
@@ -142,6 +185,7 @@ section.music-list ul#music-list li:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     background-color: var(--color-BG-secundario);
     width: 100%;
     max-width: 220px;
@@ -306,16 +350,31 @@ section.music-list ul#music-list li:hover {
     transform: translateY(5px);
     opacity: 1;
 }
-.faixa.active {
+/* .faixa.active {
     opacity: 1;
     transform: translateY(0) scale(1.01);
     visibility: visible;
     background-color: rgba(53, 52, 52, 0.418);
+    box-shadow: 0 0 10px 5px rgba(53, 52, 52, 0.418);
+} */
+/* TESTE */
+.faixa.active {
+    opacity: 1;
+    transform: translateY(0) scale(1.01);
+    visibility: visible;
+    background-color: rgba(95, 94, 94, 0.418);
     box-shadow: 0 0 10px 5px rgba(53, 52, 52, 0.418); /* Efeito esfumaçado */
 }
 .faixa:hover {
     background-color: rgba(53, 52, 52, 0.586);
     transform: translateY(0) scale(1.01);
+}
+.faixa.active .line-ingles,
+.faixa.active .line-portugues,
+.faixa.active .line-pronuncia {
+    transition: transform 0.5s ease-in-out, font-weight 0.5s ease-in-out; /* Adiciona transição suave */
+    transform: scale(1.03);
+    font-weight: 600;
 }
 .container-letter .faixa .line-ingles p {
     color: var(--color-LETTER-principal);
@@ -360,13 +419,11 @@ section.music-list ul#music-list li:hover {
     position: fixed;
     top: 15px; /* Posiciona acima do footer */
     left: 15px;
-    background-color: rgba(186, 85, 211, 0.8); /* Cor lilás */
     background-color: var(--color-BG-secundario);
     border: none;
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    color: white;
     color: var(--color-LETTER-secundario);
     font-size: 16px;
     cursor: pointer;
@@ -430,4 +487,8 @@ section.music-list ul#music-list li:hover {
 }
 .footer p {
     letter-spacing: 2.6px;
+}
+/* Mantém o rodapé sumido só quando aperta o player */
+.hidden-footer {
+    display: none;
 }

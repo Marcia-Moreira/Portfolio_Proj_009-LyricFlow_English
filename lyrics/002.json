@@ -206,9 +206,9 @@
     },
     {
       "start": 172,
-      "text_pt": "...  ",
-      "text_en": "...  ",
-      "text_pron": "...  "
+      "text_pt": "... 🎶 🎼 🎵 ...  ",
+      "text_en": "... 🎶 🎼 🎵 ...  ",
+      "text_pron": "... 🎶 🎼 🎵 ...  "
     },
     {
       "start": 190,
@@ -256,7 +256,7 @@
       "start": 230,
       "text_pt": "FIM  ",
       "text_en": "END  ",
-      "text_pron": "FIM  "
+      "text_pron": "END  "
     },
     {
       "start": 9999,

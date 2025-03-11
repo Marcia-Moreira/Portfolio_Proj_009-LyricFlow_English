@@ -251,8 +251,9 @@
         border-radius: 4px;
         margin: 8px;
         padding: 5px;
-        height: 50px;
-        min-height: 60px;
+        padding-bottom: 15px;
+        height: 65px;
+        min-height: 65px;
         transform: translateY(3px);
         gap: 4px;
     }
@@ -281,9 +282,6 @@
     }
     .footer p {
         letter-spacing: 1.5px;
-    }
-    .footer-player {
-        display: none; /* Mantém o rodapé sumido só no player */
     }
 }
 

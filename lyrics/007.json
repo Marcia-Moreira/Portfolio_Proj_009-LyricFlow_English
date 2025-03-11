@@ -1,0 +1,316 @@
+{
+  "title": "Bad Dreams",
+  "artist": "Teddy Swims",
+  "composer": "Rocky Block / Teddy Swims / John Ryan / Julian Bunetta / Matt Zara / Mikky Ekko / Sarah Solovay",
+  "audioSrc": "./audio/007.m4a",
+  "lyricsFile": "C:\\Portfolio_Marcia_Moreira-GERAL\\Portfolio_Proj_009-LyricFlow_English\\lyrics\\007.txt",
+  "scrollSpeed": 0,
+  "lyrics": [
+    {
+      "start": 0,
+      "text_pt": "- Pesadelos -  ",
+      "text_en": "- Bad Dreams - ",
+      "text_pron": "- Béd drims -"
+    },
+    {
+      "start": 1,
+      "text_pt": "... 🎶 🎼 🎵 ...",
+      "text_en": "... 🎶 🎼 🎵 ...",
+      "text_pron": "... 🎶 🎼 🎵 ..."
+    },
+    {
+      "start": 15,
+      "text_pt": "O Sol está se pondo, o tempo está acabando  ",
+      "text_en": "Sun is goin' down, time is runnin' out  ",
+      "text_pron": "Sãn is gôuin dáun, taim is rãnên aut  "
+    },
+    {
+      "start": 19,
+      "text_pt": "Não há mais ninguém por perto além de mim  ",
+      "text_en": "No one else around but me  ",
+      "text_pron": "Nô uãn éls aráund bãt mi  "
+    },
+    {
+      "start": 23,
+      "text_pt": "Perdendo continuamente a luz e o meu juízo  ",
+      "text_en": "Steady losin' light, steady losin' my mind  ",
+      "text_pron": "Stédi lúzin láit, stédi lúzin mai máind  "
+    },
+    {
+      "start": 27,
+      "text_pt": "Sombras se movem e os dentes rangem (uh)  ",
+      "text_en": "Moving shadows and grinding teeth (ooh)  ",
+      "text_pron": "Múvin shádous and gráindin tíf (ú)  "
+    },
+    {
+      "start": 31,
+      "text_pt": "(Sem você) não há lugar onde me esconder  ",
+      "text_en": "(Without you) there ain't no place for me to hide  ",
+      "text_pron": "(Widáut iú) dér éint nô pléis for mi tu háid  "
+    },
+    {
+      "start": 34,
+      "text_pt": "(Sem você) não há como eu dormir esta noite  ",
+      "text_en": "(Without you) there's no way I can sleep tonight  ",
+      "text_pron": "(Widáut iú) dérs nô wêi ái cân slip tunáit  "
+    },
+    {
+      "start": 39,
+      "text_pt": "(O que eu faria) para ter um pouco de paz e sossego  ",
+      "text_en": "(What I'd do) for a little bit of peace and quiet  ",
+      "text_pron": "(Wat áid dú) for a lítul bit of pís and kwáiet  "
+    },
+    {
+      "start": 43,
+      "text_pt": "Sem você, eu continuo  ",
+      "text_en": "Without you, I keep  ",
+      "text_pron": "Widáut iú, ái kíp  "
+    },
+    {
+      "start": 46,
+      "text_pt": "Caindo em pesadelos (pesadelos)  ",
+      "text_en": "Slippin' into bad dreams (bad dreams)  ",
+      "text_pron": "Slípin intu béd drims (béd drims)  "
+    },
+    {
+      "start": 48,
+      "text_pt": "Onde não há um você e eu  ",
+      "text_en": "Where there's no you and I  ",
+      "text_pron": "Wér dérs nô iú and ái  "
+    },
+    {
+      "start": 52,
+      "text_pt": "Sem som quando eu choro  ",
+      "text_en": "No sound when I cry  ",
+      "text_pron": "Nô sáund wén ái krái  "
+    },
+    {
+      "start": 55,
+      "text_pt": "Eu te amo e preciso que você me liberte  ",
+      "text_en": "I love you and I need you to set me free  ",
+      "text_pron": "Ái lâv iú and ái níd iú tu sét mi frí  "
+    },
+    {
+      "start": 60,
+      "text_pt": "De todos esses  ",
+      "text_en": "From all of these  ",
+      "text_pron": "From ól of dís  "
+    },
+    {
+      "start": 62,
+      "text_pt": "Pesadelos (pesadelos)  ",
+      "text_en": "Bad dreams (bad dreams)  ",
+      "text_pron": "Béd drims (béd drims)  "
+    },
+    {
+      "start": 64,
+      "text_pt": "Esperando no outro lado  ",
+      "text_en": "Waitin' on the other side  ",
+      "text_pron": "Wêitin on dé âder sáid  "
+    },
+    {
+      "start": 67,
+      "text_pt": "Sem som quando eu choro  ",
+      "text_en": "No sound when I cry  ",
+      "text_pron": "Nô sáund wén ái krái  "
+    },
+    {
+      "start": 70,
+      "text_pt": "Eu te amo e preciso que você me liberte  ",
+      "text_en": "I love you and I need you to set me free  ",
+      "text_pron": "Ái lâv iú and ái níd iú tu sét mi frí  "
+    },
+    {
+      "start": 75,
+      "text_pt": "De todos esses, de todos esses  ",
+      "text_en": "From all of these, all of these  ",
+      "text_pron": "From ól of dís, ól of dís  "
+    },
+    {
+      "start": 78,
+      "text_pt": "Uh, uh, uh  ",
+      "text_en": "Ooh, ooh, ooh  ",
+      "text_pron": "Ú, ú, ú  "
+    },
+    {
+      "start": 83,
+      "text_pt": "Pesadelos  ",
+      "text_en": "Bad dreams  ",
+      "text_pron": "Béd drims  "
+    },
+    {
+      "start": 86,
+      "text_pt": "Uh, uh, uh  ",
+      "text_en": "Ooh, ooh, ooh  ",
+      "text_pron": "Ú, ú, ú  "
+    },
+    {
+      "start": 90,
+      "text_pt": "Todos esses  ",
+      "text_en": "All of these  ",
+      "text_pron": "Ól of dís  "
+    },
+    {
+      "start": 92,
+      "text_pt": "Querida, por favor, venha, me ajude a me acalmar  ",
+      "text_en": "Baby, please, come around, help me settle down  ",
+      "text_pron": "Bêibi, plís, kâm aráund, hélp mi sétul dáun  "
+    },
+    {
+      "start": 96,
+      "text_pt": "Hábitos infernais continuam confundindo minha cabeça (hum)  ",
+      "text_en": "Hellish habits keep cloudin' my head (mm)  ",
+      "text_pron": "Hélis hábits kíp cláudin mai héd (mm)  "
+    },
+    {
+      "start": 100,
+      "text_pt": "O que você está esperando? Por alguma coisa física?  ",
+      "text_en": "What you waitin' for? Somethin' physical?  ",
+      "text_pron": "Wat iú wêitin for? Sâmfin fízicâl?  "
+    },
+    {
+      "start": 103,
+      "text_pt": "Eu não posso fazer isso sozinho  ",
+      "text_en": "I can't do this by myself  ",
+      "text_pron": "Ái cân't dú dís bai maisélf  "
+    },
+    {
+      "start": 107,
+      "text_pt": "(Sem você) não há lugar onde me esconder  ",
+      "text_en": "(Without you) there ain't no place for me to hide  ",
+      "text_pron": "(Widáut iú) dér éint nô pléis for mi tu háid  "
+    },
+    {
+      "start": 111,
+      "text_pt": "(Sem você) não há como eu dormir esta noite  ",
+      "text_en": "(Without you) there's no way I can sleep tonight  ",
+      "text_pron": "(Widáut iú) dérs nô wêi ái cân slip tunáit  "
+    },
+    {
+      "start": 115,
+      "text_pt": "(O que eu faria) para ter um pouco de paz e sossego  ",
+      "text_en": "(What I'd do) for a little bit of peace and quiet  ",
+      "text_pron": "(Wat áid dú) for a lítul bit of pís and kwáiet  "
+    },
+    {
+      "start": 120,
+      "text_pt": "Sem você, eu continuo  ",
+      "text_en": "Without you, I keep  ",
+      "text_pron": "Widáut iú, ái kíp  "
+    },
+    {
+      "start": 123,
+      "text_pt": "Caindo em pesadelos  ",
+      "text_en": "Slippin' into bad dreams  ",
+      "text_pron": "Slípin intu béd drims  "
+    },
+    {
+      "start": 125,
+      "text_pt": "Onde não há um você e eu (você e eu)  ",
+      "text_en": "Where there's no you and I (you and I)  ",
+      "text_pron": "Wér dérs nô iú and ái (iú and ái)  "
+    },
+    {
+      "start": 129,
+      "text_pt": "Sem som quando eu choro  ",
+      "text_en": "No sound when I cry  ",
+      "text_pron": "Nô sáund wén ái krái  "
+    },
+    {
+      "start": 131,
+      "text_pt": "Eu te amo e preciso que você me liberte (me liberte)  ",
+      "text_en": "I love you and I need you to set me free (set me free)  ",
+      "text_pron": "Ái lâv iú and ái níd iú tu sét mi frí (sét mi frí)  "
+    },
+    {
+      "start": 137,
+      "text_pt": "De todos esses (de todos esses)  ",
+      "text_en": "From all of these (all of these)  ",
+      "text_pron": "From ól of dís (ól of dís)  "
+    },
+    {
+      "start": 139,
+      "text_pt": "Pesadelos  ",
+      "text_en": "Bad dreams  ",
+      "text_pron": "Béd drims  "
+    },
+    {
+      "start": 141,
+      "text_pt": "Esperando no outro lado  ",
+      "text_en": "Waitin' on the other side  ",
+      "text_pron": "Wêitin on dé âder sáid  "
+    },
+    {
+      "start": 144,
+      "text_pt": "Sem som quando eu choro  ",
+      "text_en": "No sound when I cry  ",
+      "text_pron": "Nô sáund wén ái krái  "
+    },
+    {
+      "start": 147,
+      "text_pt": "Eu te amo e preciso que você me liberte (me liberte)  ",
+      "text_en": "I love you and I need you to set me free (set me free)  ",
+      "text_pron": "Ái lâv iú and ái níd iú tu sét mi frí (sét mi frí)  "
+    },
+    {
+      "start": 152,
+      "text_pt": "De todos esses, de todos esses  ",
+      "text_en": "From all of these, all of these  ",
+      "text_pron": "From ól of dís, ól of dís  "
+    },
+    {
+      "start": 155,
+      "text_pt": "Uh, uh, uh  ",
+      "text_en": "Ooh, ooh, ooh  ",
+      "text_pron": "Ú, ú, ú  "
+    },
+    {
+      "start": 159,
+      "text_pt": "Pesadelos (pesadelos)  ",
+      "text_en": "Bad dreams (bad dreams)  ",
+      "text_pron": "Béd drims (béd drims)  "
+    },
+    {
+      "start": 161,
+      "text_pt": "Querida, por favor  ",
+      "text_en": "Baby, please  ",
+      "text_pron": "Bêibi, plís  "
+    },
+    {
+      "start": 163,
+      "text_pt": "Uh, uh, uh  ",
+      "text_en": "Ooh, ooh, ooh  ",
+      "text_pron": "Ú, ú, ú  "
+    },
+    {
+      "start": 166,
+      "text_pt": "De todos esses (querida, por favor), de todos esses  ",
+      "text_en": "All of these (baby, please), all of these  ",
+      "text_pron": "Ól of dís (bêibi, plís), ól of dís  "
+    },
+    {
+      "start": 170,
+      "text_pt": "... 🎶 🎼 🎵 ...",
+      "text_en": "... 🎶 🎼 🎵 ...",
+      "text_pron": "... 🎶 🎼 🎵 ..."
+    },
+    {
+      "start": 178,
+      "text_pt": "(Uh, uh, uh)  ",
+      "text_en": "(Ooh, ooh, ooh)  ",
+      "text_pron": "(Ú, ú, ú)"
+    },
+    {
+      "start": 182,
+      "text_pt": "- FIM -",
+      "text_en": "- END -",
+      "text_pron": "- END -"
+    },
+    {
+      "start": 9999,
+      "text_pt": "Composição: Rocky Block / Teddy Swims / John Ryan / Julian Bunetta / Matt Zara / Mikky Ekko / Sarah Solovay",
+      "text_en": "Composition: Rocky Block / Teddy Swims / John Ryan / Julian Bunetta / Matt Zara / Mikky Ekko / Sarah Solovay",
+      "text_pron": "Cômpozíshon: Rocky Block / Teddy Swims / John Ryan / Julian Bunetta / Matt Zara / Mikky Ekko / Sarah Solovay"
+    }
+  ]
+}
