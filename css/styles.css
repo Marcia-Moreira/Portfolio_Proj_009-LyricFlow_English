@@ -237,7 +237,7 @@ section.music-list ul#music-list li:active {
 }
 .image-container p {
     color: var(--color-LETTER-secundario);
-    font-size: clamp(14px, 1vw, 20px); /* Tamanho da fonte responsivo */
+    font-size: clamp(12px, 1vw, 20px); /* Tamanho da fonte responsivo */
     /* white-space: nowrap; */
     /* Impede a quebra de linha */
     /* overflow: hidden; */
