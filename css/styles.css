@@ -68,7 +68,6 @@ body {
     left: 0;
     width: 100%;
     height: 20px; /* Altura do efeito esfumaçado */
-    /* USAR no Piano Red??? */
     pointer-events: none; /* Impede que interfira no clique das faixas */
     z-index: 10;
 }
@@ -83,6 +82,17 @@ body {
 /* ********************************************** */
 /* *PÁGINA LISTA DE MÚSICAS: */
 /* ********************************************** */
+/* Container da lista de músicas: */
+.list-letter {
+    width: 85%;
+    max-height: 60vh; 
+    min-height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 5px;
+    margin: 0 auto;
+    position: relative;
+}
 section.music-list {
     display: flex;
     flex-direction: column;
@@ -95,8 +105,7 @@ section.music-list {
 }
 section.music-list .name-program {
     color: var(--color-LETTER-terciario);
-    font-size: 30px;
-
+    font-size: 35px;
     overflow: hidden; /* Esconde o texto inicialmente */
 }
 /* Animação do Letreiro: */
@@ -128,8 +137,8 @@ section.music-list .name-program span:nth-child(12) { animation-delay: 1.2s; }
 section.music-list .name-program span:nth-child(13) { animation-delay: 1.3s; }
 section.music-list .name-program span:nth-child(14) { animation-delay: 1.4s; }
 /* ==================== */
-section.music-list h1 {
-    font-size: 24px;
+section.music-list h2 {
+    font-size: 20px;
     color: var(--color-LETTER-secundario);
     text-align: center;
 }
@@ -280,37 +289,19 @@ section.music-list ul#music-list li:hover {
 /* ********************************************** */
 /* *PÁGINA LETRAS DE MÚSICA: */
 /* ********************************************** */
+/*! Página index.html: fazer uma copia no style main */
 .container-letter {
     display: none;
     position: relative;
-    /*! Deixa rolar vertical: */
     overflow-y: scroll;
-    /* overflow-y: auto; */
     overflow-x: hidden;
-    /* height: 350px; */
     height: 65vh; /* Altura fixa Landscape */
-    /* width: 600px; */
     width: 60vw;
     border-radius: 5px;
     padding: 8px;
     margin: 20px;
     transition: background-color 0.4s ease;
     background: transparent;
-
-    /* BORDAS ESFUMAÇADAS LILAS: */
-    /* Gradiente esfumaçado nas bordas superior e inferior */
-    /* background: 
-        linear-gradient(to bottom, rgba(186, 85, 211, 0.5), transparent) top,
-        linear-gradient(to top, rgba(186, 85, 211, 0.5), transparent) bottom;
-    background-size: 100% 20px;
-    background-repeat: no-repeat; */
-
-    /* BORDAS APAGADAS: */
-    /* -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
-    background-repeat: no-repeat; */
-
-    /* Máscara para esmaecer as bordas */
     -webkit-mask-image: linear-gradient(
         to bottom,
         transparent 5%,
@@ -350,13 +341,6 @@ section.music-list ul#music-list li:hover {
     transform: translateY(5px);
     opacity: 1;
 }
-/* .faixa.active {
-    opacity: 1;
-    transform: translateY(0) scale(1.01);
-    visibility: visible;
-    background-color: rgba(53, 52, 52, 0.418);
-    box-shadow: 0 0 10px 5px rgba(53, 52, 52, 0.418);
-} */
 /* TESTE */
 .faixa.active {
     opacity: 1;
@@ -394,19 +378,24 @@ section.music-list ul#music-list li:hover {
 /* *BARRA DE ROLAGEM PERSONALIZADA: */
 /* ********************************************** */
 /* Largura fina da barra */
+/* .list-letter */
+.list-letter::-webkit-scrollbar,
 .container-letter::-webkit-scrollbar {
     width: 8px;
 }
 /* Fundo invisível */
+.list-letter::-webkit-scrollbar-track,
 .container-letter::-webkit-scrollbar-track {
     background: transparent;
 }
 /* Barra personalizada */
+.list-letter::-webkit-scrollbar-thumb,
 .container-letter::-webkit-scrollbar-thumb {
     background: rgba(186, 85, 211, 0.2);
     border-radius: 10px;
     transition: background 0.3s ease;
 }
+.list-letter::-webkit-scrollbar-thumb:hover,
 .container-letter::-webkit-scrollbar-thumb:hover {
     background: rgba(186, 85, 211, 0.5);
 }
@@ -458,7 +447,6 @@ section.music-list ul#music-list li:hover {
 }
 /* Classes da Linha Pronûncia: */
 /* Classe para mostrar a pronúncia fonética */
-
 .show-pron .line-portugues {
     display: none; /* Esconde a linha em português */
 }
@@ -466,7 +454,6 @@ section.music-list ul#music-list li:hover {
     color: var(--color-LETTER-terciario);
     letter-spacing: .7px;
 }
-
 /* ********************************************** */
 /* *PÁGINA RODAPÉ: */
 /* ********************************************** */
@@ -477,7 +464,6 @@ section.music-list ul#music-list li:hover {
     flex-direction: column;
     gap: 10px;
     padding: 10px;
-    /* background-color: var(--color-BG-secundario); */
     color: var(--color-LETTER-secundario);
     font-size: 10px;
     position: fixed;

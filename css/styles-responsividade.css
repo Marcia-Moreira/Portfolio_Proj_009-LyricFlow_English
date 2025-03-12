@@ -187,7 +187,6 @@
     }
     /*? Verificado */
     .container-player {
-        /* flex: 1; */
         gap: 0px;
         height: 100%;
     }
@@ -217,7 +216,6 @@
     /*? Verificado */
     .audio-progress {
         height: 4px;
-        
     }
     /*? Verificado */
     .container-letter {
@@ -273,6 +271,15 @@
     .hide-en .line-portugues {
         padding-top: 10px;
     }
+    /* Container da Lista de Músicas: */
+    .list-letter {
+        width: 85%;
+        max-height: 50vh; 
+        min-height: 45vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 5px;
+    }
     /* FOOTER */
     /*? Verificado */
     .footer {
@@ -284,9 +291,6 @@
         letter-spacing: 1.5px;
     }
 }
-
-
-/*! Não funcionou Nada Bem */
 /* Estilos específicos para telas maiores (acima de 915px) */
 @media (min-width: 916px) {
     .faixa {
