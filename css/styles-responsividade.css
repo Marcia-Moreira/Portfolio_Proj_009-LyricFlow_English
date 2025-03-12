@@ -1,6 +1,145 @@
 /* ********************************************** */
 /* *RESPONSIVIDADE TELAS MENORES: */
 /* ********************************************** */
+/* ********************************************** */
+/*  * OK RESPONSIVO PARA CELULARES NA HORIZONTAL (916px Landscape)*/
+/* ********************************************** */
+/* Landscape Galaxy S20 Ultra = 915 x 412 */
+@media (max-width: 916px) and (orientation: landscape) {
+    .section-player {
+        flex: 1;
+        padding: 15px;
+    }
+    .fade-top,
+    .fade-bottom {
+        height: 12px; /* Altura do efeito esfumaçado */
+    }
+    /*? Verificado com dúvidas*/
+    .btn-players {
+        gap: 8px;
+        border-radius: 3px;
+    }
+    /*? Verificado com dúvidas*/
+    .btn-players button {
+        min-width: 70px;
+        height: 20px;
+        min-height: 10px;
+    }
+    .btn-players button:hover {
+        transform: scale(1.03);
+    }
+    .container-player {
+        gap: 0px;
+        height: 100%;
+    }
+    .playBtn, .pauseBtn {
+        font-size: 12px;
+        padding: 4px;
+    }
+    .playBtn .bi-play-fill, .pauseBtn .bi-pause-fill {
+        font-size: 12px;
+        padding: 0px;
+    }
+    #music-title,
+    #music-artist {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+    .audio-bar {
+        height: 5px;
+        width: 100%;
+        margin: 5px auto;
+        border-radius: 4px;
+    }
+    .audio-progress {
+        height: 4px;
+    }
+    .container-letter {
+        /* height: 50vh; */
+        /* Altura menos esfumaçado da borda: */
+        height: calc(65vh - 24px);
+        min-height: 40vh;
+        width: 90vw;
+        padding: 4px;
+        margin-top: 6px;
+        margin-bottom: 0px;
+        background-size: 100% 14px;
+        /* Máscara para esmaecer as bordas */
+        -webkit-mask-image: linear-gradient(
+            to bottom,
+            transparent 5%,
+            rgba(0, 0, 0, 0) 6%,
+            rgba(0, 0, 0, 0) 93%,
+            transparent 94%
+        );
+        mask-image: linear-gradient(
+            to bottom,
+            transparent 0%,
+            rgba(0, 0, 0, 1) 5%,
+            rgba(0, 0, 0, 1) 95%,
+            transparent 99%
+        );
+    }
+    .faixa {
+        border-radius: 4px;
+        margin: 8px;
+        padding: 5px;
+        padding-bottom: 15px;
+        height: 65px;
+        min-height: 65px;
+        transform: translateY(3px);
+        gap: 4px;
+    }
+    .container-letter .faixa .line-ingles p {
+        font-size: clamp(16px, 2.4vw, 20px);
+        padding-top: 4px;
+    }
+    .container-letter .faixa .line-portugues p {
+        font-size: clamp(14px, 1.9vw, 18px);
+    }
+    /* Quando apenas uma linha estiver visível: */
+    .hide-pt .line-ingles {
+        padding-top: 10px;
+    }
+    .hide-en .line-portugues {
+        padding-top: 10px;
+    }
+    /* Container da Lista de Músicas: */
+    .list-letter {
+        width: 85%;
+        max-height: 50vh; 
+        min-height: 35vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 5px;
+    }
+    /* FOOTER */
+    .footer {
+        padding-top: 8px;
+        padding-bottom: 6px;
+        font-size: 8px;
+    }
+    .footer p {
+        letter-spacing: 1.5px;
+    }
+}
+/* Estilos específicos para telas maiores (acima de 915px) */
+@media (min-width: 916px) {
+    .faixa {
+        min-height: 100px;
+    }
+    .hide-pt .line-ingles,
+    .hide-en .line-portugues {
+        font-size: 18px; 
+    }
+    .container-letter .faixa .line-ingles p {
+        font-size: clamp(16px, 2.3vw, 20px);
+        padding-top: 5px;
+    }
+    .container-letter .faixa .line-portugues p {
+        font-size: clamp(14px, 1.8vw, 18px);
+    }
+}
 
 /* ********************************************** */
 /* *RESPONSIVO PARA TABLETS: 1024px (638px) */
@@ -153,160 +292,5 @@
     .footer {
         padding-top: 10px;
         padding-bottom: 12px;
-    }
-}
-/* ? APAGAR OS SUPERIORES E REESCREVER A PARTIOR DO LANDSCAPE ABAIXO? */
-/* ********************************************** */
-/*  * OK RESPONSIVO PARA CELULARES NA HORIZONTAL (916px Landscape)*/
-/* ********************************************** */
-/* Landscape Galaxy S20 Ultra = 915 x 412 */
-@media (max-width: 916px) and (orientation: landscape) {
-    .section-player {
-        flex: 1;
-        padding: 15px;
-    }
-    /*? Verificado */
-    .fade-top,
-    .fade-bottom {
-        height: 12px; /* Altura do efeito esfumaçado */
-    }
-    /*? Verificado com dúvidas*/
-    .btn-players {
-        gap: 8px;
-        border-radius: 3px;
-    }
-    /*? Verificado com dúvidas*/
-    .btn-players button {
-        min-width: 70px;
-        height: 20px;
-        min-height: 10px;
-    }
-    /*? Verificado */
-    .btn-players button:hover {
-        transform: scale(1.03);
-    }
-    /*? Verificado */
-    .container-player {
-        gap: 0px;
-        height: 100%;
-    }
-    /*? Verificado */
-    .playBtn, .pauseBtn {
-        font-size: 12px;
-        padding: 4px;
-    }
-    /*? Verificado */
-    .playBtn .bi-play-fill, .pauseBtn .bi-pause-fill {
-        font-size: 12px;
-        padding: 0px;
-    }
-    /*? Verificado */
-    #music-title,
-    #music-artist {
-        font-size: 12px;
-        letter-spacing: 1.5px;
-    }
-    /*? Verificado */
-    .audio-bar {
-        height: 5px;
-        width: 100%;
-        margin: 5px auto;
-        border-radius: 4px;
-    }
-    /*? Verificado */
-    .audio-progress {
-        height: 4px;
-    }
-    /*? Verificado */
-    .container-letter {
-        /* height: 50vh; */
-        /* Altura menos esfumaçado da borda: */
-        height: calc(65vh - 24px);
-        min-height: 40vh;
-        width: 90vw;
-        padding: 4px;
-        margin-top: 6px;
-        margin-bottom: 0px;
-        background-size: 100% 14px;
-        /* Máscara para esmaecer as bordas */
-        -webkit-mask-image: linear-gradient(
-            to bottom,
-            transparent 5%,
-            rgba(0, 0, 0, 0) 6%,
-            rgba(0, 0, 0, 0) 93%,
-            transparent 94%
-        );
-        mask-image: linear-gradient(
-            to bottom,
-            transparent 0%,
-            rgba(0, 0, 0, 1) 5%,
-            rgba(0, 0, 0, 1) 95%,
-            transparent 99%
-        );
-    }
-    /*? Verificado */
-    .faixa {
-        border-radius: 4px;
-        margin: 8px;
-        padding: 5px;
-        padding-bottom: 15px;
-        height: 65px;
-        min-height: 65px;
-        transform: translateY(3px);
-        gap: 4px;
-    }
-    /*? Verificado */
-    .container-letter .faixa .line-ingles p {
-        font-size: clamp(16px, 2.4vw, 20px);
-        padding-top: 4px;
-    }
-    /*? Verificado */
-    .container-letter .faixa .line-portugues p {
-        font-size: clamp(14px, 1.9vw, 18px);
-    }
-    /* Quando apenas uma linha estiver visível: */
-    .hide-pt .line-ingles {
-        padding-top: 10px;
-    }
-    .hide-en .line-portugues {
-        padding-top: 10px;
-    }
-    /* Container da Lista de Músicas: */
-    .list-letter {
-        width: 85%;
-        max-height: 50vh; 
-        min-height: 45vh;
-        overflow-y: auto;
-        overflow-x: hidden;
-        padding: 5px;
-    }
-    /* FOOTER */
-    /*? Verificado */
-    .footer {
-        padding-top: 8px;
-        padding-bottom: 6px;
-        font-size: 8px;
-    }
-    .footer p {
-        letter-spacing: 1.5px;
-    }
-}
-/* Estilos específicos para telas maiores (acima de 915px) */
-@media (min-width: 916px) {
-    .faixa {
-        min-height: 100px;
-    }
-    .hide-pt .line-ingles,
-    .hide-en .line-portugues {
-        font-size: 18px; 
-    }
-    /*? Verificado */
-    .container-letter .faixa .line-ingles p {
-        font-size: clamp(16px, 2.3vw, 20px);
-        padding-top: 5px;
-    }
-    /*? Verificado */
-    .container-letter .faixa .line-portugues p {
-        font-size: clamp(14px, 1.8vw, 18px);
     }
 }
