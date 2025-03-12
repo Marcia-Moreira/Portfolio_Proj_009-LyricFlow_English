@@ -38,6 +38,17 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             // Evento de clique para selecionar música
             listItem.addEventListener("click", () => {
+                //? REVER
+                // Remove a classe 'selected' de todos os itens
+                document.querySelectorAll('music-list li').forEach(item => {
+                    item.classList.remove('selected');
+                });
+                //? REVER
+                // Adiciona a classe 'selected' ao item clicado
+                listItem.classList.add('selected');
+
+
+                // Armazena a música selecionada e redireciona para o player
                 localStorage.setItem("selectedMusic", id);
                 window.location.href = "player.html"; // Vai para o player
             });

@@ -104,6 +104,7 @@ section.music-list {
     padding-bottom: 10px;
     gap: 20px;
     list-style-type: none; /* Remove os marcadores de lista */
+    user-select: none;
 }
 section.music-list .name-program {
     color: var(--color-LETTER-terciario);
@@ -143,6 +144,7 @@ section.music-list h2 {
     font-size: 20px;
     color: var(--color-LETTER-secundario);
     text-align: center;
+    user-select: none;
 }
 section.music-list ul {
     cursor: pointer;
@@ -154,6 +156,9 @@ section.music-list ul#music-list li {
     color: var(--color-LETTER-principal);
     padding: 15px;
     cursor: pointer;
+    /* Impede a seleção de texto: */
+    user-select: none;
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque padrão ao tocar */
     transition: background-color 0.3s ease; /* Efeito de transição suave */
     transition: transform 0.3s ease-in-out;
 }
