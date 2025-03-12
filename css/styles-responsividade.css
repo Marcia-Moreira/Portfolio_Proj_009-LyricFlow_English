@@ -5,6 +5,13 @@
 /* ********************************************** */
 /* * OK RESPONSIVO PARA CELULARES NA HORIZONTAL (916px Landscape) */
 /* ********************************************** */
+@media (min-width: 3088px) and (min-height: 1440px) and (orientation: landscape) {
+    /* Estilos específicos para o Galaxy Note 20 Ultra em landscape */
+    body {
+        background-color: red;
+    }
+}
+
 /* Landscape Galaxy S20 Ultra = 915 x 412 */
 /* max-width 916px max-height 468px */
 @media (max-width: 916px) and (orientation: landscape) {
@@ -349,9 +356,13 @@
     }
 }
 
-@media (max-height: 438px) {
+@media (max-height: 438px) and (orientation: landscape) {
     .list-letter {
+        /* max-height: calc(438px - 50px); */
+
         max-height: 45vh;
-        min-height: 40vh;
+        min-height: 35vh;
+
+        /* background-size: 100% 15px; */
     }
 }
