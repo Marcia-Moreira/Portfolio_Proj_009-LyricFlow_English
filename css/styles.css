@@ -92,6 +92,7 @@ body {
     padding: 5px;
     margin: 0 auto;
     position: relative;
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque padrão ao tocar */
 }
 section.music-list {
     display: flex;
@@ -105,11 +106,14 @@ section.music-list {
     gap: 20px;
     list-style-type: none; /* Remove os marcadores de lista */
     user-select: none;
+
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque padrão ao tocar */
 }
 section.music-list .name-program {
     color: var(--color-LETTER-terciario);
     font-size: 35px;
     overflow: hidden; /* Esconde o texto inicialmente */
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque padrão ao tocar */
 }
 /* Animação do Letreiro: */
 section.music-list .name-program span {
@@ -150,6 +154,7 @@ section.music-list ul {
     cursor: pointer;
     list-style: none;
     font-size: 22px;
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque padrão ao tocar */
 }
 section.music-list ul#music-list li {
     display: block;
