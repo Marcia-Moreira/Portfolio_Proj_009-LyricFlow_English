@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             listItem.addEventListener("click", () => {
                 //? REVER
                 // Remove a classe 'selected' de todos os itens
-                document.querySelectorAll('music-list li').forEach(item => {
+                document.querySelectorAll('#music-list li').forEach(item => {
                     item.classList.remove('selected');
                 });
                 //? REVER

@@ -172,6 +172,10 @@ section.music-list ul#music-list li:hover {
     transform: scale(1.02);
     font-weight: 600;
 }
+/* Efeito ao clicar (para mobile e desktop) */
+section.music-list ul#music-list li:active {
+    background-color: rgba(255, 255, 255, 0.3); /* Fundo mais escuro */
+}
 /* ********************************************** */
 /* *BOTÃO VOLTAR A LISTAGEM: */
 /* ********************************************** */
