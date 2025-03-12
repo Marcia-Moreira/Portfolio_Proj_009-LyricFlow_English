@@ -224,16 +224,26 @@ section.music-list ul#music-list li:active {
 .container-player:hover {
     background-color: var(--color-BG-hover-secundario);
 }
+/* music-inf */
 .image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5px;
     margin-bottom: 5px;
+
+    width: 100%;
+    overflow: hidden; /* Impede que o texto ultrapasse o contêiner */
 }
 .image-container p {
-    font-size: 18px;
     color: var(--color-LETTER-secundario);
+    font-size: clamp(14px, 1vw, 20px); /* Tamanho da fonte responsivo */
+    /* white-space: nowrap; */
+    /* Impede a quebra de linha */
+    /* overflow: hidden; */
+    /* Esconde o texto que ultrapassar */
+    /* text-overflow: ellipsis; */
+    /* Adiciona "..." ao final do texto truncado */
 }
 .audio-container {
     display: flex;
